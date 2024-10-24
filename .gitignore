@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+hello/makefile
+hello/.DS_Store
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/settings.json
+.DS_Store
