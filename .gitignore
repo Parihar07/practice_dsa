@@ -36,3 +36,8 @@ hello/.DS_Store
 .vscode/launch.json
 .vscode/settings.json
 .DS_Store
+*.xcuserdatad*
+*.xcuserdatad*
+*.pbxproj
+dsa/dsa.xcodeproj/project.pbxproj
+*.xcworkspace*
