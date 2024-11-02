@@ -27,7 +27,7 @@
 
  Input 2:
      A = [5, 1, 10, 1]
- Output 2:
+ Output 2:sfds
      [10, 50, 5, 50]
  */
 #include <iostream>

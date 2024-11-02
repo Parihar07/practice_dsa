@@ -4,6 +4,7 @@
 //
 //  Created by CodeBreaker on 11/08/1946 Saka.
 //
+
 /*
  Amazing Subarrays
  Unsolved
@@ -35,6 +36,7 @@
      5. E
      6. EC
      here number of substrings are 6 and 6 % 10003 = 6.
+ 
  */
 #include <iostream>
 #include<vector>

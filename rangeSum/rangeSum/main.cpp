@@ -45,7 +45,7 @@
  Example Output
  Output 1:
  [10, 5]
- Output 2:
+ Output 2:sds
  [2, 4]
 
 

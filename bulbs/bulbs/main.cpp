@@ -53,6 +53,7 @@
   press switch 3 : [1 1 1 1]
  Explanation 2:
   There is no need to turn any switches as all the bulbs are already on.
+ 
  */
 #include <iostream>
 #include<vector>

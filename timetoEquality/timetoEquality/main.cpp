@@ -37,7 +37,7 @@
 
 
  Example Explanation
- We can change the array A = [4, 4, 4, 4, 4]. The time required will be 8 seconds.
+ We can change the array A = [4, 4, 4, 4, 4]. The time required will be 8 seconds.sdf
  */
 #include <iostream>
 #include<iostream>

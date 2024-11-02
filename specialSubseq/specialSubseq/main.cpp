@@ -47,7 +47,7 @@
   Subsequence "AG" is 3 times in given string
  Explanation 2:
   There is no subsequence "AG" in the given string.
- 
+ sfs
  */
 
 #include <iostream>

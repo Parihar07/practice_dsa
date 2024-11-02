@@ -66,7 +66,7 @@
  Query 2: The subarray in the range [1, 4] is {7, 3, 4, 9} which is not non-decreasing. Therefore, ans = 0
  Explanation 1 :
  Query 1: The subarray in the range [0, 2] is {1, 1, 7} which is non-decreasing. Therefore, ans = 1
- Query 2: The subarray in the range [2, 4] is {7, 2, 3} which is not non-decreasing. Therefore, ans = 0
+ Query 2: The subarray in the range [2, 4] is {7, 2, 3} which is not non-decreasing. Therefore, ans = 0sdfa
  */
 #include <iostream>
 #include<vector>

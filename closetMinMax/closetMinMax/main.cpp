@@ -44,6 +44,7 @@
  Explanation 1:
   Take the 1st and 2nd elements as they are the minimum and maximum elements respectievly.
  Explanation 2:
+ sdfsdf
   Take the last 3 elements of the array.*/
 #include <iostream>
 #include<vector>

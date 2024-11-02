@@ -18,7 +18,7 @@
  Remove 3 elements from front and 0 elements from the back, OR
  Remove 2 elements from front and 1 element from the back, OR
  Remove 1 element from front and 2 elements from the back, OR
- Remove 0 elements from front and 3 elements from the back.
+ Remove 0 elements from front and 3 elements from the back.asdf
 
 
  Problem Constraints
