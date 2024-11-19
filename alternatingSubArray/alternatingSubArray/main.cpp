@@ -134,7 +134,7 @@ vector<int> solve(vector<int> &A, int B) {
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, Alternating subarray!\n";
-    vector<int> v{0, 0, 0, 1, 1, 0, 1};
+    vector<int> v{1, 0, 1, 0, 1};
     vector<int> ans = solve(v, 1);
     for(int i=0;i<ans.size();i++)
     {
