@@ -63,6 +63,11 @@
 		309A04DD2CD551550089093A /* bulbs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bulbs.xcodeproj; path = ../bulbs/bulbs.xcodeproj; sourceTree = SOURCE_ROOT; };
 		309E85BC2CCF9D5A00C1F988 /* dsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dsa; sourceTree = BUILT_PRODUCTS_DIR; };
 		309E85D92CCF9DE700C1F988 /* rotateLeft.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = rotateLeft.xcodeproj; path = ../rotateLeft/rotateLeft.xcodeproj; sourceTree = SOURCE_ROOT; };
+		30A867922CF237E500915E19 /* ma_divisibleEight.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ma_divisibleEight.xcodeproj; path = ../ma_divisibleEight/ma_divisibleEight.xcodeproj; sourceTree = SOURCE_ROOT; };
+		30A868DF2CF3832800915E19 /* sorting_colorSort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sorting_colorSort.xcodeproj; path = ../sorting_colorSort/sorting_colorSort.xcodeproj; sourceTree = SOURCE_ROOT; };
+		30A869932CF3A2DB00915E19 /* sorting_nobleNumber.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sorting_nobleNumber.xcodeproj; path = ../sorting_nobleNumber/sorting_nobleNumber.xcodeproj; sourceTree = SOURCE_ROOT; };
+		30A86A502CF4C04400915E19 /* sorting_arithmaticProgression.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sorting_arithmaticProgression.xcodeproj; path = ../sorting_arithmaticProgression/sorting_arithmaticProgression.xcodeproj; sourceTree = SOURCE_ROOT; };
+		30A86B0A2CF4D83A00915E19 /* sorting_factorsSort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sorting_factorsSort.xcodeproj; path = ../sorting_factorsSort/sorting_factorsSort.xcodeproj; sourceTree = SOURCE_ROOT; };
 		30B027032CE9158000EECC28 /* bm_subarray_or.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bm_subarray_or.xcodeproj; path = ../bm_subarray_or/bm_subarray_or.xcodeproj; sourceTree = SOURCE_ROOT; };
 		30B027A82CE9286A00EECC28 /* bm_unsetXbitsright.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bm_unsetXbitsright.xcodeproj; path = ../bm_unsetXbitsright/bm_unsetXbitsright.xcodeproj; sourceTree = SOURCE_ROOT; };
 		30B028562CEB997600EECC28 /* ma_exceltitle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ma_exceltitle.xcodeproj; path = ../ma_exceltitle/ma_exceltitle.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -382,6 +387,11 @@
 		309E85B32CCF9D5A00C1F988 = {
 			isa = PBXGroup;
 			children = (
+				30A86B0A2CF4D83A00915E19 /* sorting_factorsSort.xcodeproj */,
+				30A86A502CF4C04400915E19 /* sorting_arithmaticProgression.xcodeproj */,
+				30A869932CF3A2DB00915E19 /* sorting_nobleNumber.xcodeproj */,
+				30A868DF2CF3832800915E19 /* sorting_colorSort.xcodeproj */,
+				30A867922CF237E500915E19 /* ma_divisibleEight.xcodeproj */,
 				30B029012CEBA79200EECC28 /* ma_A_B_Modulo.xcodeproj */,
 				30B028562CEB997600EECC28 /* ma_exceltitle.xcodeproj */,
 				30B027A82CE9286A00EECC28 /* bm_unsetXbitsright.xcodeproj */,
@@ -447,6 +457,41 @@
 			sourceTree = "<group>";
 		};
 		309E85DC2CCF9DE700C1F988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A867952CF237E500915E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A868E22CF3832800915E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A869962CF3A2DB00915E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A86A532CF4C04400915E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A86B0D2CF4D83A00915E19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -662,6 +707,10 @@
 					ProjectRef = 30B029012CEBA79200EECC28 /* ma_A_B_Modulo.xcodeproj */;
 				},
 				{
+					ProductGroup = 30A867952CF237E500915E19 /* Products */;
+					ProjectRef = 30A867922CF237E500915E19 /* ma_divisibleEight.xcodeproj */;
+				},
+				{
 					ProductGroup = 30B028592CEB997700EECC28 /* Products */;
 					ProjectRef = 30B028562CEB997600EECC28 /* ma_exceltitle.xcodeproj */;
 				},
@@ -744,6 +793,22 @@
 				{
 					ProductGroup = 309E85DC2CCF9DE700C1F988 /* Products */;
 					ProjectRef = 309E85D92CCF9DE700C1F988 /* rotateLeft.xcodeproj */;
+				},
+				{
+					ProductGroup = 30A86A532CF4C04400915E19 /* Products */;
+					ProjectRef = 30A86A502CF4C04400915E19 /* sorting_arithmaticProgression.xcodeproj */;
+				},
+				{
+					ProductGroup = 30A868E22CF3832800915E19 /* Products */;
+					ProjectRef = 30A868DF2CF3832800915E19 /* sorting_colorSort.xcodeproj */;
+				},
+				{
+					ProductGroup = 30A86B0D2CF4D83A00915E19 /* Products */;
+					ProjectRef = 30A86B0A2CF4D83A00915E19 /* sorting_factorsSort.xcodeproj */;
+				},
+				{
+					ProductGroup = 30A869962CF3A2DB00915E19 /* Products */;
+					ProjectRef = 30A869932CF3A2DB00915E19 /* sorting_nobleNumber.xcodeproj */;
 				},
 				{
 					ProductGroup = 30154D5A2CD272E400964821 /* Products */;
