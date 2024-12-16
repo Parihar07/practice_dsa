@@ -19,6 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		300D89742D0F25E10083B4F8 /* array_rainwatertrap.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = array_rainwatertrap.xcodeproj; path = ../array_rainwatertrap/array_rainwatertrap.xcodeproj; sourceTree = SOURCE_ROOT; };
+		300D8A522D0F45F90083B4F8 /* array_beggarstory.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = array_beggarstory.xcodeproj; path = ../array_beggarstory/array_beggarstory.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3010A0872CD62FD900269053 /* EvenSubArrays.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EvenSubArrays.xcodeproj; path = ../EvenSubArrays/EvenSubArrays.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3010A0F02CD68AAF00269053 /* LeaderInArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LeaderInArray.xcodeproj; path = ../LeaderInArray/LeaderInArray.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3010A1322CD6A50900269053 /* sumOfSubArrays.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sumOfSubArrays.xcodeproj; path = ../sumOfSubArrays/sumOfSubArrays.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -27,17 +29,11 @@
 		30154D832CD4185000964821 /* nonDecreasingArr.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = nonDecreasingArr.xcodeproj; path = ../nonDecreasingArr/nonDecreasingArr.xcodeproj; sourceTree = SOURCE_ROOT; };
 		30154DAF2CD4220A00964821 /* timetoEquality.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = timetoEquality.xcodeproj; path = ../timetoEquality/timetoEquality.xcodeproj; sourceTree = SOURCE_ROOT; };
 		30154DCA2CD4265800964821 /* productPuzzle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = productPuzzle.xcodeproj; path = ../productPuzzle/productPuzzle.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3020862F2CFF753C00F19646 /* LL_DesignLinkedList.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LL_DesignLinkedList.xcodeproj; path = ../LL_DesignLinkedList/LL_DesignLinkedList.xcodeproj; sourceTree = SOURCE_ROOT; };
 		302CBE992CD7771400E8EE03 /* leastAvgSubArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = leastAvgSubArray.xcodeproj; path = ../leastAvgSubArray/leastAvgSubArray.xcodeproj; sourceTree = SOURCE_ROOT; };
 		302CBEE12CD7E78E00E8EE03 /* maxSubArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = maxSubArray.xcodeproj; path = ../maxSubArray/maxSubArray.xcodeproj; sourceTree = SOURCE_ROOT; };
 		302CBEFC2CD7EEA600E8EE03 /* countSubarray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = countSubarray.xcodeproj; path = ../countSubarray/countSubarray.xcodeproj; sourceTree = SOURCE_ROOT; };
-		3032730C2CFC279E00B84426 /* hashing_isDictionary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_isDictionary.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_isDictionary/hashing_isDictionary.xcodeproj; sourceTree = "<absolute>"; };
-		303274082CFC2B7700B84426 /* hashing_subArraySum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_subArraySum.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_subArraySum/hashing_subArraySum.xcodeproj; sourceTree = "<absolute>"; };
-		303274232CFCA2E400B84426 /* hashing_pairsum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_pairsum.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_pairsum/hashing_pairsum.xcodeproj; sourceTree = "<absolute>"; };
-		3032743E2CFCD32600B84426 /* hashing_countpairdiff.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_countpairdiff.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_countpairdiff/hashing_countpairdiff.xcodeproj; sourceTree = "<absolute>"; };
-		303274592CFCDC0A00B84426 /* hashing_countsubarraysumzero.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_countsubarraysumzero.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_countsubarraysumzero/hashing_countsubarraysumzero.xcodeproj; sourceTree = "<absolute>"; };
-		303274742CFCE30300B84426 /* hashing_longsubarraysumzero.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_longsubarraysumzero.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_longsubarraysumzero/hashing_longsubarraysumzero.xcodeproj; sourceTree = "<absolute>"; };
-		3032748F2CFCF4AD00B84426 /* recursion_sumdigits.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = recursion_sumdigits.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/recursion_sumdigits/recursion_sumdigits.xcodeproj; sourceTree = "<absolute>"; };
-		303274AA2CFD00D400B84426 /* LL_insertdeleteprint.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LL_insertdeleteprint.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/LL_insertdeleteprint/LL_insertdeleteprint.xcodeproj; sourceTree = "<absolute>"; };
+		303276562CFD6A9400B84426 /* LL_Basic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LL_Basic.xcodeproj; path = ../LL_Basic/LL_Basic.xcodeproj; sourceTree = SOURCE_ROOT; };
 		305720162CD60C62007E67DD /* amazingSubArr.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = amazingSubArr.xcodeproj; path = ../amazingSubArr/amazingSubArr.xcodeproj; sourceTree = SOURCE_ROOT; };
 		305AB2702CDA87940077F006 /* goodSubArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = goodSubArray.xcodeproj; path = ../goodSubArray/goodSubArray.xcodeproj; sourceTree = SOURCE_ROOT; };
 		305AB2C12CDA99410077F006 /* alternatingSubArray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = alternatingSubArray.xcodeproj; path = ../alternatingSubArray/alternatingSubArray.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -66,20 +62,8 @@
 		305B22C42CE7A68100B051A2 /* bm_add_binaryString.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bm_add_binaryString.xcodeproj; path = ../bm_add_binaryString/bm_add_binaryString.xcodeproj; sourceTree = SOURCE_ROOT; };
 		305B22DF2CE7E08200B051A2 /* bm_countSetBits.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bm_countSetBits.xcodeproj; path = ../bm_countSetBits/bm_countSetBits.xcodeproj; sourceTree = SOURCE_ROOT; };
 		305B22FA2CE7F0B000B051A2 /* bm_compressionProblem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bm_compressionProblem.xcodeproj; path = ../bm_compressionProblem/bm_compressionProblem.xcodeproj; sourceTree = SOURCE_ROOT; };
-		305D39672CFAFF4400114CFD /* hashing_Diffk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_Diffk.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_Diffk/hashing_Diffk.xcodeproj; sourceTree = "<absolute>"; };
-		305D3A5C2CFB405D00114CFD /* hashing_DistinctinWindw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_DistinctinWindw.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_DistinctinWindw/hashing_DistinctinWindw.xcodeproj; sourceTree = "<absolute>"; };
-		305D3A772CFB8E6600114CFD /* hashing_2SUm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_2SUm.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_2SUm/hashing_2SUm.xcodeproj; sourceTree = "<absolute>"; };
 		30744B9D2CD4B67E008B2556 /* specialSubseq.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = specialSubseq.xcodeproj; path = ../specialSubseq/specialSubseq.xcodeproj; sourceTree = SOURCE_ROOT; };
 		30744BD02CD4F611008B2556 /* closetMinMax.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = closetMinMax.xcodeproj; path = ../closetMinMax/closetMinMax.xcodeproj; sourceTree = SOURCE_ROOT; };
-		30753AB32CFA23F000D815DD /* hashing_specialNumber.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hashing_specialNumber.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hashing_specialNumber/hashing_specialNumber.xcodeproj; sourceTree = "<absolute>"; };
-		30753B8B2CFA317800D815DD /* hash_chkPalindrome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hash_chkPalindrome.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hash_chkPalindrome/hash_chkPalindrome.xcodeproj; sourceTree = "<absolute>"; };
-		30753BA62CFA391300D815DD /* hash_colorfull.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hash_colorfull.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hash_colorfull/hash_colorfull.xcodeproj; sourceTree = "<absolute>"; };
-		30753BC12CFA3EB500D815DD /* hash_subarayforsum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hash_subarayforsum.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hash_subarayforsum/hash_subarayforsum.xcodeproj; sourceTree = "<absolute>"; };
-		30753BDE2CFA465100D815DD /* hash_pairXOR.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hash_pairXOR.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/hash_pairXOR/hash_pairXOR.xcodeproj; sourceTree = "<absolute>"; };
-		30753BF92CFA503400D815DD /* recusrion_fibnaci.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = recusrion_fibnaci.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/recusrion_fibnaci/recusrion_fibnaci.xcodeproj; sourceTree = "<absolute>"; };
-		30753C142CFA523900D815DD /* recusrion_palindrome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = recusrion_palindrome.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/recusrion_palindrome/recusrion_palindrome.xcodeproj; sourceTree = "<absolute>"; };
-		30753C2F2CFA558500D815DD /* recusrion_factorial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = recusrion_factorial.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/recusrion_factorial/recusrion_factorial.xcodeproj; sourceTree = "<absolute>"; };
-		30753C4A2CFA576D00D815DD /* recusrion_reverseStr.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = recusrion_reverseStr.xcodeproj; path = /Users/codebreaker/cbr/ConcurrencyMultithreading/recusrion_reverseStr/recusrion_reverseStr.xcodeproj; sourceTree = "<absolute>"; };
 		309A04DD2CD551550089093A /* bulbs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bulbs.xcodeproj; path = ../bulbs/bulbs.xcodeproj; sourceTree = SOURCE_ROOT; };
 		309E85BC2CCF9D5A00C1F988 /* dsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dsa; sourceTree = BUILT_PRODUCTS_DIR; };
 		309E85D92CCF9DE700C1F988 /* rotateLeft.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = rotateLeft.xcodeproj; path = ../rotateLeft/rotateLeft.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -125,6 +109,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		300D89772D0F25E20083B4F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300D8A552D0F45F90083B4F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3010A08A2CD62FD900269053 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +179,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		302086322CFF753D00F19646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		302CBE9C2CD7771500E8EE03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,56 +207,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3032730F2CFC279E00B84426 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3032740B2CFC2B7700B84426 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		303274262CFCA2E400B84426 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		303274412CFCD32600B84426 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3032745C2CFCDC0A00B84426 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		303274772CFCE30300B84426 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		303274922CFCF4AE00B84426 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		303274AD2CFD00D400B84426 /* Products */ = {
+		303276592CFD6A9500B84426 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -447,27 +403,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		305D396A2CFAFF4400114CFD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		305D3A5F2CFB405E00114CFD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		305D3A7A2CFB8E6600114CFD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		30744BA02CD4B67F008B2556 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,69 +411,6 @@
 			sourceTree = "<group>";
 		};
 		30744BD32CD4F612008B2556 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753AB62CFA23F000D815DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753B8E2CFA317800D815DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753BA92CFA391300D815DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753BC42CFA3EB500D815DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753BE12CFA465100D815DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753BFC2CFA503400D815DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753C172CFA523900D815DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753C322CFA558600D815DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		30753C4D2CFA576D00D815DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -555,26 +427,10 @@
 		309E85B32CCF9D5A00C1F988 = {
 			isa = PBXGroup;
 			children = (
-				303274AA2CFD00D400B84426 /* LL_insertdeleteprint.xcodeproj */,
-				3032748F2CFCF4AD00B84426 /* recursion_sumdigits.xcodeproj */,
-				303274742CFCE30300B84426 /* hashing_longsubarraysumzero.xcodeproj */,
-				303274592CFCDC0A00B84426 /* hashing_countsubarraysumzero.xcodeproj */,
-				3032743E2CFCD32600B84426 /* hashing_countpairdiff.xcodeproj */,
-				303274232CFCA2E400B84426 /* hashing_pairsum.xcodeproj */,
-				303274082CFC2B7700B84426 /* hashing_subArraySum.xcodeproj */,
-				3032730C2CFC279E00B84426 /* hashing_isDictionary.xcodeproj */,
-				305D3A772CFB8E6600114CFD /* hashing_2SUm.xcodeproj */,
-				305D3A5C2CFB405D00114CFD /* hashing_DistinctinWindw.xcodeproj */,
-				305D39672CFAFF4400114CFD /* hashing_Diffk.xcodeproj */,
-				30753C4A2CFA576D00D815DD /* recusrion_reverseStr.xcodeproj */,
-				30753C2F2CFA558500D815DD /* recusrion_factorial.xcodeproj */,
-				30753C142CFA523900D815DD /* recusrion_palindrome.xcodeproj */,
-				30753BF92CFA503400D815DD /* recusrion_fibnaci.xcodeproj */,
-				30753BDE2CFA465100D815DD /* hash_pairXOR.xcodeproj */,
-				30753BC12CFA3EB500D815DD /* hash_subarayforsum.xcodeproj */,
-				30753BA62CFA391300D815DD /* hash_colorfull.xcodeproj */,
-				30753B8B2CFA317800D815DD /* hash_chkPalindrome.xcodeproj */,
-				30753AB32CFA23F000D815DD /* hashing_specialNumber.xcodeproj */,
+				300D8A522D0F45F90083B4F8 /* array_beggarstory.xcodeproj */,
+				300D89742D0F25E10083B4F8 /* array_rainwatertrap.xcodeproj */,
+				3020862F2CFF753C00F19646 /* LL_DesignLinkedList.xcodeproj */,
+				303276562CFD6A9400B84426 /* LL_Basic.xcodeproj */,
 				30A86F3C2CF9220A00915E19 /* hash_kOccurances.xcodeproj */,
 				30A86F212CF910CE00915E19 /* hash_subarrayZero.xcodeproj */,
 				30A86F062CF90D1B00915E19 /* hash_firstRepeating.xcodeproj */,
@@ -871,6 +727,10 @@
 					ProjectRef = 305B1FD92CE163FF00B051A2 /* Array_100People.xcodeproj */;
 				},
 				{
+					ProductGroup = 300D8A552D0F45F90083B4F8 /* Products */;
+					ProjectRef = 300D8A522D0F45F90083B4F8 /* array_beggarstory.xcodeproj */;
+				},
+				{
 					ProductGroup = 30FF28912CE0C8BE00666AD6 /* Products */;
 					ProjectRef = 30FF288E2CE0C8BE00666AD6 /* array_christmastree.xcodeproj */;
 				},
@@ -893,6 +753,10 @@
 				{
 					ProductGroup = 305B22AC2CE7675D00B051A2 /* Products */;
 					ProjectRef = 305B22A92CE7675D00B051A2 /* array_overalpping_rect.xcodeproj */;
+				},
+				{
+					ProductGroup = 300D89772D0F25E20083B4F8 /* Products */;
+					ProjectRef = 300D89742D0F25E10083B4F8 /* array_rainwatertrap.xcodeproj */;
 				},
 				{
 					ProductGroup = 305B22912CE7589200B051A2 /* Products */;
@@ -951,14 +815,6 @@
 					ProjectRef = 305AB2702CDA87940077F006 /* goodSubArray.xcodeproj */;
 				},
 				{
-					ProductGroup = 30753B8E2CFA317800D815DD /* Products */;
-					ProjectRef = 30753B8B2CFA317800D815DD /* hash_chkPalindrome.xcodeproj */;
-				},
-				{
-					ProductGroup = 30753BA92CFA391300D815DD /* Products */;
-					ProjectRef = 30753BA62CFA391300D815DD /* hash_colorfull.xcodeproj */;
-				},
-				{
 					ProductGroup = 30A86EEE2CF903BC00915E19 /* Products */;
 					ProjectRef = 30A86EEB2CF903BC00915E19 /* hash_commonElements.xcodeproj */;
 				},
@@ -971,56 +827,8 @@
 					ProjectRef = 30A86F3C2CF9220A00915E19 /* hash_kOccurances.xcodeproj */;
 				},
 				{
-					ProductGroup = 30753BE12CFA465100D815DD /* Products */;
-					ProjectRef = 30753BDE2CFA465100D815DD /* hash_pairXOR.xcodeproj */;
-				},
-				{
-					ProductGroup = 30753BC42CFA3EB500D815DD /* Products */;
-					ProjectRef = 30753BC12CFA3EB500D815DD /* hash_subarayforsum.xcodeproj */;
-				},
-				{
 					ProductGroup = 30A86F242CF910CE00915E19 /* Products */;
 					ProjectRef = 30A86F212CF910CE00915E19 /* hash_subarrayZero.xcodeproj */;
-				},
-				{
-					ProductGroup = 305D3A7A2CFB8E6600114CFD /* Products */;
-					ProjectRef = 305D3A772CFB8E6600114CFD /* hashing_2SUm.xcodeproj */;
-				},
-				{
-					ProductGroup = 303274412CFCD32600B84426 /* Products */;
-					ProjectRef = 3032743E2CFCD32600B84426 /* hashing_countpairdiff.xcodeproj */;
-				},
-				{
-					ProductGroup = 3032745C2CFCDC0A00B84426 /* Products */;
-					ProjectRef = 303274592CFCDC0A00B84426 /* hashing_countsubarraysumzero.xcodeproj */;
-				},
-				{
-					ProductGroup = 305D396A2CFAFF4400114CFD /* Products */;
-					ProjectRef = 305D39672CFAFF4400114CFD /* hashing_Diffk.xcodeproj */;
-				},
-				{
-					ProductGroup = 305D3A5F2CFB405E00114CFD /* Products */;
-					ProjectRef = 305D3A5C2CFB405D00114CFD /* hashing_DistinctinWindw.xcodeproj */;
-				},
-				{
-					ProductGroup = 3032730F2CFC279E00B84426 /* Products */;
-					ProjectRef = 3032730C2CFC279E00B84426 /* hashing_isDictionary.xcodeproj */;
-				},
-				{
-					ProductGroup = 303274772CFCE30300B84426 /* Products */;
-					ProjectRef = 303274742CFCE30300B84426 /* hashing_longsubarraysumzero.xcodeproj */;
-				},
-				{
-					ProductGroup = 303274262CFCA2E400B84426 /* Products */;
-					ProjectRef = 303274232CFCA2E400B84426 /* hashing_pairsum.xcodeproj */;
-				},
-				{
-					ProductGroup = 30753AB62CFA23F000D815DD /* Products */;
-					ProjectRef = 30753AB32CFA23F000D815DD /* hashing_specialNumber.xcodeproj */;
-				},
-				{
-					ProductGroup = 3032740B2CFC2B7700B84426 /* Products */;
-					ProjectRef = 303274082CFC2B7700B84426 /* hashing_subArraySum.xcodeproj */;
 				},
 				{
 					ProductGroup = 3010A0F32CD68AAF00269053 /* Products */;
@@ -1031,8 +839,12 @@
 					ProjectRef = 302CBE992CD7771400E8EE03 /* leastAvgSubArray.xcodeproj */;
 				},
 				{
-					ProductGroup = 303274AD2CFD00D400B84426 /* Products */;
-					ProjectRef = 303274AA2CFD00D400B84426 /* LL_insertdeleteprint.xcodeproj */;
+					ProductGroup = 303276592CFD6A9500B84426 /* Products */;
+					ProjectRef = 303276562CFD6A9400B84426 /* LL_Basic.xcodeproj */;
+				},
+				{
+					ProductGroup = 302086322CFF753D00F19646 /* Products */;
+					ProjectRef = 3020862F2CFF753C00F19646 /* LL_DesignLinkedList.xcodeproj */;
 				},
 				{
 					ProductGroup = 30B029042CEBA79300EECC28 /* Products */;
@@ -1121,26 +933,6 @@
 				{
 					ProductGroup = 30154D362CD158D200964821 /* Products */;
 					ProjectRef = 30154D332CD158D100964821 /* rangeSum.xcodeproj */;
-				},
-				{
-					ProductGroup = 303274922CFCF4AE00B84426 /* Products */;
-					ProjectRef = 3032748F2CFCF4AD00B84426 /* recursion_sumdigits.xcodeproj */;
-				},
-				{
-					ProductGroup = 30753C322CFA558600D815DD /* Products */;
-					ProjectRef = 30753C2F2CFA558500D815DD /* recusrion_factorial.xcodeproj */;
-				},
-				{
-					ProductGroup = 30753BFC2CFA503400D815DD /* Products */;
-					ProjectRef = 30753BF92CFA503400D815DD /* recusrion_fibnaci.xcodeproj */;
-				},
-				{
-					ProductGroup = 30753C172CFA523900D815DD /* Products */;
-					ProjectRef = 30753C142CFA523900D815DD /* recusrion_palindrome.xcodeproj */;
-				},
-				{
-					ProductGroup = 30753C4D2CFA576D00D815DD /* Products */;
-					ProjectRef = 30753C4A2CFA576D00D815DD /* recusrion_reverseStr.xcodeproj */;
 				},
 				{
 					ProductGroup = 309E85DC2CCF9DE700C1F988 /* Products */;
