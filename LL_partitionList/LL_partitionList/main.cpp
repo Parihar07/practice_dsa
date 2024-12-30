@@ -234,7 +234,25 @@ class LinkedList {
                 prev1->next = dummy2.next;
                 head = dummy1.next;
             }
-
+    void swapPairs()
+    {
+        Node *C=head;
+        head=head->next;
+        Node* prev=NULL;
+        Node *A=NULL;
+        while(C!=NULL && C->next!=NULL)
+        {
+            A=C->next;
+            C->next = A->next;
+            A->next = C;
+            if(prev!=NULL)
+            {
+                prev->next=A;
+            }
+            prev=C;
+            C=C->next;
+        }
+    }
 };
 
 int main(int argc, const char * argv[]) {
@@ -247,8 +265,9 @@ int main(int argc, const char * argv[]) {
     LL->append(10);
     LL->append(2);
     LL->append(1);
+    LL->append(11);
     LL->printList();
-    LL->partitionList(5);
+    LL->swapPairs();
     LL->printList();
     return 0;
 }
