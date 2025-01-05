@@ -57,7 +57,7 @@ int numSetBits(int A) {
     while(A)
     {
         ans+=A&1;
-        A>>=1;
+        A>>=1; // A = A>>1
     }
     return ans;
 }
