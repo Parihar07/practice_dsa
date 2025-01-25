@@ -42,6 +42,7 @@ hello/.DS_Store
 dsa/dsa.xcodeproj/project.pbxproj
 *.xcworkspace*
 *.xcodeproj*
+*.xcuserstate
 DSA.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
 dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
 dsa/dsa.xcodeproj/xcuserdata/codebreaker.xcuserdatad/xcschemes/xcschememanagement.plist
@@ -51,3 +52,6 @@ dsa/dsa.xcodeproj/project.pbxproj
 dsa/dsa.xcodeproj/project.pbxproj
 /win_dev/.vs/win_dev
 /win_dev/win_dev/x64/Debug
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+dsa/dsa.xcodeproj/project.pbxproj
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
