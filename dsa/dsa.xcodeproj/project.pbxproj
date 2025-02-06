@@ -55,6 +55,17 @@
 		3034B3FD2D44ED5500C81DE5 /* tree_inorder_iterative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tree_inorder_iterative.xcodeproj; path = ../tree_inorder_iterative/tree_inorder_iterative.xcodeproj; sourceTree = SOURCE_ROOT; };
 		303600DD2D1B309000122DE3 /* matrics_sumSubmatric.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = matrics_sumSubmatric.xcodeproj; path = ../matrics_sumSubmatric/matrics_sumSubmatric.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3036FFCB2D1B08B900122DE3 /* LL-SwapPairs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LL-SwapPairs.xcodeproj"; path = "../LL-SwapPairs/LL-SwapPairs.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		303A28232D464DE200A670B3 /* trees_zigzagtraversal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = trees_zigzagtraversal.xcodeproj; path = ../trees_zigzagtraversal/trees_zigzagtraversal.xcodeproj; sourceTree = SOURCE_ROOT; };
+		303A29E62D469B4900A670B3 /* trees_verticalOrderTraversal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = trees_verticalOrderTraversal.xcodeproj; path = ../trees_verticalOrderTraversal/trees_verticalOrderTraversal.xcodeproj; sourceTree = SOURCE_ROOT; };
+		303A2BB52D47BF1700A670B3 /* trees_validBinSearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = trees_validBinSearch.xcodeproj; path = ../trees_validBinSearch/trees_validBinSearch.xcodeproj; sourceTree = SOURCE_ROOT; };
+		303A2D7E2D47ED1D00A670B3 /* trees_countNodes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = trees_countNodes.xcodeproj; path = ../trees_countNodes/trees_countNodes.xcodeproj; sourceTree = SOURCE_ROOT; };
+		303A2D9A2D493E3100A670B3 /* trees_findk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = trees_findk.xcodeproj; path = ../trees_findk/trees_findk.xcodeproj; sourceTree = SOURCE_ROOT; };
+		303A2DB72D49CF9C00A670B3 /* trees_nextlink.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = trees_nextlink.xcodeproj; path = ../trees_nextlink/trees_nextlink.xcodeproj; sourceTree = SOURCE_ROOT; };
+		303A2DD32D4AA58400A670B3 /* LL_clonelinkedList.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LL_clonelinkedList.xcodeproj; path = ../LL_clonelinkedList/LL_clonelinkedList.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3041D4DF2D4BF69800A81085 /* tree_diameter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tree_diameter.xcodeproj; path = ../tree_diameter/tree_diameter.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3041D6B72D4D423700A81085 /* trie_spellingchecker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = trie_spellingchecker.xcodeproj; path = ../trie_spellingchecker/trie_spellingchecker.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3041D8A72D51194000A81085 /* string_getprefix.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = string_getprefix.xcodeproj; path = ../string_getprefix/string_getprefix.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3041DA842D5120DE00A81085 /* tree_maxXor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tree_maxXor.xcodeproj; path = ../tree_maxXor/tree_maxXor.xcodeproj; sourceTree = SOURCE_ROOT; };
 		30518FD72D1BE3EF002E54FF /* matrix_submatrixsumqueries.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = matrix_submatrixsumqueries.xcodeproj; path = ../matrix_submatrixsumqueries/matrix_submatrixsumqueries.xcodeproj; sourceTree = SOURCE_ROOT; };
 		305190ED2D1C0691002E54FF /* matrix_findnumnerinsorted.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = matrix_findnumnerinsorted.xcodeproj; path = ../matrix_findnumnerinsorted/matrix_findnumnerinsorted.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3051910A2D1C1AE5002E54FF /* matrix_maxSumSubarray.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = matrix_maxSumSubarray.xcodeproj; path = ../matrix_maxSumSubarray/matrix_maxSumSubarray.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -86,6 +97,7 @@
 		305B22C42CE7A68100B051A2 /* bm_add_binaryString.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bm_add_binaryString.xcodeproj; path = ../bm_add_binaryString/bm_add_binaryString.xcodeproj; sourceTree = SOURCE_ROOT; };
 		305B22DF2CE7E08200B051A2 /* bm_countSetBits.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bm_countSetBits.xcodeproj; path = ../bm_countSetBits/bm_countSetBits.xcodeproj; sourceTree = SOURCE_ROOT; };
 		305B22FA2CE7F0B000B051A2 /* bm_compressionProblem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bm_compressionProblem.xcodeproj; path = ../bm_compressionProblem/bm_compressionProblem.xcodeproj; sourceTree = SOURCE_ROOT; };
+		305D42EB2D5454BD00B80F67 /* backtracking_ndigiNum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = backtracking_ndigiNum.xcodeproj; path = ../backtracking_ndigiNum/backtracking_ndigiNum.xcodeproj; sourceTree = SOURCE_ROOT; };
 		306CC03C2D1899740091A42A /* DLL_SwapPairs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DLL_SwapPairs.xcodeproj; path = ../DLL_SwapPairs/DLL_SwapPairs.xcodeproj; sourceTree = SOURCE_ROOT; };
 		307309152D17C5590014F6EE /* DLL_design.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DLL_design.xcodeproj; path = ../DLL_design/DLL_design.xcodeproj; sourceTree = SOURCE_ROOT; };
 		30730A142D17EEFF0014F6EE /* DLL_swapFirstLast.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DLL_swapFirstLast.xcodeproj; path = ../DLL_swapFirstLast/DLL_swapFirstLast.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -435,6 +447,83 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		303A28262D464DE200A670B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303A29E92D469B4900A670B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303A2BB82D47BF1700A670B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303A2D812D47ED1E00A670B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303A2D9D2D493E3100A670B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303A2DBA2D49CF9D00A670B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303A2DD62D4AA58400A670B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3041D4E22D4BF69900A81085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3041D6BA2D4D423700A81085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3041D8AA2D51194100A81085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3041DA872D5120DF00A81085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		30518FDA2D1BE3EF002E54FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -645,6 +734,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		305D42EE2D5454BE00B80F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		306CC03F2D1899740091A42A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -844,6 +940,18 @@
 		309E85B32CCF9D5A00C1F988 = {
 			isa = PBXGroup;
 			children = (
+				305D42EB2D5454BD00B80F67 /* backtracking_ndigiNum.xcodeproj */,
+				3041DA842D5120DE00A81085 /* tree_maxXor.xcodeproj */,
+				3041D8A72D51194000A81085 /* string_getprefix.xcodeproj */,
+				3041D6B72D4D423700A81085 /* trie_spellingchecker.xcodeproj */,
+				3041D4DF2D4BF69800A81085 /* tree_diameter.xcodeproj */,
+				303A2DD32D4AA58400A670B3 /* LL_clonelinkedList.xcodeproj */,
+				303A2DB72D49CF9C00A670B3 /* trees_nextlink.xcodeproj */,
+				303A2D9A2D493E3100A670B3 /* trees_findk.xcodeproj */,
+				303A2D7E2D47ED1D00A670B3 /* trees_countNodes.xcodeproj */,
+				303A2BB52D47BF1700A670B3 /* trees_validBinSearch.xcodeproj */,
+				303A29E62D469B4900A670B3 /* trees_verticalOrderTraversal.xcodeproj */,
+				303A28232D464DE200A670B3 /* trees_zigzagtraversal.xcodeproj */,
 				3034B3FD2D44ED5500C81DE5 /* tree_inorder_iterative.xcodeproj */,
 				3034B3E22D44BDD700C81DE5 /* tree_preorder_iterative.xcodeproj */,
 				3034B3C72D44AFBD00C81DE5 /* tree_rightview.xcodeproj */,
@@ -1461,6 +1569,10 @@
 					ProjectRef = 30CF665D2D26E54500E96A38 /* arrays_swapcount.xcodeproj */;
 				},
 				{
+					ProductGroup = 305D42EE2D5454BE00B80F67 /* Products */;
+					ProjectRef = 305D42EB2D5454BD00B80F67 /* backtracking_ndigiNum.xcodeproj */;
+				},
+				{
 					ProductGroup = 305B22C72CE7A68200B051A2 /* Products */;
 					ProjectRef = 305B22C42CE7A68100B051A2 /* bm_add_binaryString.xcodeproj */;
 				},
@@ -1607,6 +1719,10 @@
 				{
 					ProductGroup = 307D64142D16B27900B70A08 /* Products */;
 					ProjectRef = 307D64112D16B27800B70A08 /* LL_Binary2Decci.xcodeproj */;
+				},
+				{
+					ProductGroup = 303A2DD62D4AA58400A670B3 /* Products */;
+					ProjectRef = 303A2DD32D4AA58400A670B3 /* LL_clonelinkedList.xcodeproj */;
 				},
 				{
 					ProductGroup = 302086322CFF753D00F19646 /* Products */;
@@ -1913,12 +2029,20 @@
 					ProjectRef = 308AF0332D4281F500BFBFA5 /* string_eord_reverse.xcodeproj */;
 				},
 				{
+					ProductGroup = 3041D8AA2D51194100A81085 /* Products */;
+					ProjectRef = 3041D8A72D51194000A81085 /* string_getprefix.xcodeproj */;
+				},
+				{
 					ProductGroup = 3010A1352CD6A50900269053 /* Products */;
 					ProjectRef = 3010A1322CD6A50900269053 /* sumOfSubArrays.xcodeproj */;
 				},
 				{
 					ProductGroup = 30154DB22CD4220A00964821 /* Products */;
 					ProjectRef = 30154DAF2CD4220A00964821 /* timetoEquality.xcodeproj */;
+				},
+				{
+					ProductGroup = 3041D4E22D4BF69900A81085 /* Products */;
+					ProjectRef = 3041D4DF2D4BF69800A81085 /* tree_diameter.xcodeproj */;
 				},
 				{
 					ProductGroup = 3034B4002D44ED5500C81DE5 /* Products */;
@@ -1933,6 +2057,10 @@
 					ProjectRef = 308AF1E32D42BEFC00BFBFA5 /* tree_levelorder.xcodeproj */;
 				},
 				{
+					ProductGroup = 3041DA872D5120DF00A81085 /* Products */;
+					ProjectRef = 3041DA842D5120DE00A81085 /* tree_maxXor.xcodeproj */;
+				},
+				{
 					ProductGroup = 3034B3E52D44BDD800C81DE5 /* Products */;
 					ProjectRef = 3034B3E22D44BDD700C81DE5 /* tree_preorder_iterative.xcodeproj */;
 				},
@@ -1941,8 +2069,36 @@
 					ProjectRef = 3034B3C72D44AFBD00C81DE5 /* tree_rightview.xcodeproj */;
 				},
 				{
+					ProductGroup = 303A2D812D47ED1E00A670B3 /* Products */;
+					ProjectRef = 303A2D7E2D47ED1D00A670B3 /* trees_countNodes.xcodeproj */;
+				},
+				{
 					ProductGroup = 308AECF12D41E24C00BFBFA5 /* Products */;
 					ProjectRef = 308AECEE2D41E24B00BFBFA5 /* trees_design.xcodeproj */;
+				},
+				{
+					ProductGroup = 303A2D9D2D493E3100A670B3 /* Products */;
+					ProjectRef = 303A2D9A2D493E3100A670B3 /* trees_findk.xcodeproj */;
+				},
+				{
+					ProductGroup = 303A2DBA2D49CF9D00A670B3 /* Products */;
+					ProjectRef = 303A2DB72D49CF9C00A670B3 /* trees_nextlink.xcodeproj */;
+				},
+				{
+					ProductGroup = 303A2BB82D47BF1700A670B3 /* Products */;
+					ProjectRef = 303A2BB52D47BF1700A670B3 /* trees_validBinSearch.xcodeproj */;
+				},
+				{
+					ProductGroup = 303A29E92D469B4900A670B3 /* Products */;
+					ProjectRef = 303A29E62D469B4900A670B3 /* trees_verticalOrderTraversal.xcodeproj */;
+				},
+				{
+					ProductGroup = 303A28262D464DE200A670B3 /* Products */;
+					ProjectRef = 303A28232D464DE200A670B3 /* trees_zigzagtraversal.xcodeproj */;
+				},
+				{
+					ProductGroup = 3041D6BA2D4D423700A81085 /* Products */;
+					ProjectRef = 3041D6B72D4D423700A81085 /* trie_spellingchecker.xcodeproj */;
 				},
 			);
 			projectRoot = "";

@@ -23,6 +23,7 @@ struct treeNode {
     treeNode(int v):val(v),left(NULL),right(NULL){}
 };
 
+
 class bTree{
     treeNode *root;
     void levelOrder(treeNode *root);
