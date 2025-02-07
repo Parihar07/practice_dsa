@@ -209,6 +209,7 @@ class DoublyLinkedList {
             {
                 A->next->prev = C;
             }
+
             
             A->next = C;
             A->prev=C->prev;
@@ -234,6 +235,7 @@ int main(int argc, const char * argv[]) {
 //    DLL->append(6);
     DLL->printList();
     DLL->swapPairs();
+    cout<<endl;
     cout<<"tail : "<<DLL->getTail()->value<<endl;
     DLL->printList();
     return 0;

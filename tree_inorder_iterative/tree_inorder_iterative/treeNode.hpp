@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+//
+//  treeNode.hpp
+//  tree_inorder_iterative
+//
+//  Created by CodeBreaker on 25/01/25.
+//
+using namespace std;
+
+>>>>>>> d61fd74 (treetraversals)
 struct treeNode {
     int val;
     treeNode *left;
@@ -7,7 +18,11 @@ struct treeNode {
 
 class bTree{
     treeNode *root;
+<<<<<<< HEAD
     void preorderIterative(treeNode *root, vector<int> &v);
+=======
+    void inOrderIterative(treeNode *root, vector<int> &v);
+>>>>>>> d61fd74 (treetraversals)
 public:
     bTree(){
         root = new treeNode(1);
@@ -36,5 +51,12 @@ public:
         
         nwNode3->left = nwNode8;
     }
+<<<<<<< HEAD
     vector<int> preorderTraversal();
 };
+=======
+    vector<int> inOrderTraversal();
+};
+
+
+>>>>>>> d61fd74 (treetraversals)
