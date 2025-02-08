@@ -63,3 +63,5 @@ dsa/dsa.xcodeproj/xcuserdata/codebreaker.xcuserdatad/xcschemes/xcschememanagemen
 *.xcuserstate
 *.plist
 >>>>>>> a74f448 (backtrackingadded)
+backtracking_subsets/btss.dSYM/Contents/Resources/DWARF/btss
+backtracking_subsets/btss.dSYM/Contents/Resources/Relocations/aarch64/btss.yml
