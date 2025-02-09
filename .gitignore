@@ -50,18 +50,16 @@ dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInt
 dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
 dsa/dsa.xcodeproj/project.pbxproj
 dsa/dsa.xcodeproj/project.pbxproj
-<<<<<<< HEAD
 /win_dev/.vs/win_dev
 /win_dev/win_dev/x64/Debug
 dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
 dsa/dsa.xcodeproj/project.pbxproj
 dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
-=======
 dsa/dsa.xcodeproj/xcuserdata/codebreaker.xcuserdatad/xcschemes/xcschememanagement.plist
 dsa/dsa.xcodeproj/xcuserdata/codebreaker.xcuserdatad/xcschemes/xcschememanagement.plist
 *.pbxproj
 *.xcuserstate
 *.plist
->>>>>>> a74f448 (backtrackingadded)
 backtracking_subsets/btss.dSYM/Contents/Resources/DWARF/btss
 backtracking_subsets/btss.dSYM/Contents/Resources/Relocations/aarch64/btss.yml
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
