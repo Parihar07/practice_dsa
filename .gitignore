@@ -63,3 +63,6 @@ dsa/dsa.xcodeproj/xcuserdata/codebreaker.xcuserdatad/xcschemes/xcschememanagemen
 backtracking_subsets/btss.dSYM/Contents/Resources/DWARF/btss
 backtracking_subsets/btss.dSYM/Contents/Resources/Relocations/aarch64/btss.yml
 dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+backtracking_NQueens/bnq.dSYM/Contents/Resources/DWARF/bnq
+backtracking_NQueens/bnq.dSYM/Contents/Resources/Relocations/aarch64/bnq.yml
+dsa/dsa.xcodeproj/project.xcworkspace/*
