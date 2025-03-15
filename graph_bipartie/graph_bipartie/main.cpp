@@ -36,10 +36,12 @@ bool bipartie(vector<int> &U, vector<int> &V, int N, int E)
             {
                 cv[i]=3-cv[t];
                 q.push(i);
-            } else if(cv[i]==(3-cv[i])){
+            } else if(cv[i]==cv[t]){
                 return false; //expected color should be different here !
+                
             }
         }
+        
     }
     return true;
 }
@@ -47,6 +49,6 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, Biparte Graph!\n";
     vector<int> U{1,1,2,2,5,4,9,8,3,6}, V{2,9,3,5,4,7,8,7,6,7};
-    cout<<"if Biparte : "<<bipartie(U, V, 9, 10)<<true<<endl;
+    cout<<"if Biparte : "<<(bipartie(U, V, 9, 10) ? "true" : "false")<<endl;
     return 0;
 }
