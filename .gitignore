@@ -66,3 +66,9 @@ dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInt
 backtracking_NQueens/bnq.dSYM/Contents/Resources/DWARF/bnq
 backtracking_NQueens/bnq.dSYM/Contents/Resources/Relocations/aarch64/bnq.yml
 dsa/dsa.xcodeproj/project.xcworkspace/*
+*.tlog
+*.recipe
+*.ilk
+*.log
+*.idb
+*.pdb
