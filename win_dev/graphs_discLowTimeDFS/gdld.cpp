@@ -3,9 +3,9 @@
 using namespace std;
 
 void DFS(vector<vector<int>> &G, vector<int>& disc, vector<int>& low, 
-  vector<int>& vis, vector<int>& par, int v, int p)
+  vector<int>& vis, vector<int>& par, int v, int p, int &t)
 {
-  static int t = 0; t++;
+  t++;
   vis[v] = 1;
   disc[v] = t;
   low[v] = t;
@@ -13,16 +13,15 @@ void DFS(vector<vector<int>> &G, vector<int>& disc, vector<int>& low,
 
   for (auto i : G[v])
   {
-	if (vis[i] == 0)
-	{
-	  DFS(G, disc, low, vis, par, i, v);
-	}
-	else {
-	  if (par[v] != i)
-	  {
-		low[v] = min(low[v], low[i]);
-	  }
-	}
+    if (vis[i] == 0)
+    {
+      DFS(G, disc, low, vis, par, i, v, t);
+      low[v] = min(low[v], low[i]);
+    }
+    else if (par[v] != i)
+    {
+      low[v] = min(low[v], low[i]);
+    }
   }
   return;
 }
@@ -40,12 +39,19 @@ void getDiscoveryLowTime(vector<int>& U, vector<int>& V, const int N)
 
   //creating discovery, low discovery, visited and parent list
   vector<int> disc(N + 1, 0), low(N + 1, 0), vis(N + 1, 0), par(N + 1, 0);
+  int t=0;
 
-  DFS(G, disc, low, vis, par, 1, 0);
+  for (int i = 1; i <= N; i++)
+  {
+    if (vis[i] == 0)
+    {
+      DFS(G, disc, low, vis, par, i, 0, t);
+    }
+  }
 
   for (int i = 0; i <= N; i++)
   {
-	cout << i << "-" << disc[i] << "-" << low[i] << endl;
+    cout << i << "-" << disc[i] << "-" << low[i] << endl;
   }
 
   return;
@@ -53,7 +59,8 @@ void getDiscoveryLowTime(vector<int>& U, vector<int>& V, const int N)
 
 int main() {
   cout << "Hello, graphs get discovery time and low time DFS\n";
-  vector<int> U{ 1,2,2,2,3,3,4,6,8,8,8 }, V{ 2,3,8,4,4,6,5,7,9,10,11 };
+  vector<int> U{ 1,1,2,2,2,3,3,4,6,2,8,8 }, 
+              V{ 2,7,3,8,4,4,6,5,7,8,9,10,11};
   getDiscoveryLowTime(U, V, 11);
   return 0;
 }

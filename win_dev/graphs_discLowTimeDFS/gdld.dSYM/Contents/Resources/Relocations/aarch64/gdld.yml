@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/codebreaker/cbr/practice_dsa/win_dev/graphs_discLowTimeDFS/gdld'
+relocations:     []
+...
