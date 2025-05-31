@@ -11,6 +11,13 @@ using namespace std;
 
 int fib(int n)
 {
+    if (n < 0) {
+        // Fibonacci is typically not defined for negative numbers.
+        // You can throw an error or return a specific value.
+        throw std::invalid_argument("Input to fib must be non-negative");
+        // return -1; // Or some indicator of an error
+    }
+    
     vector<int> dp(n+1,-1);
     // Declare std::function first, then assign the lambda.
     // This is a common pattern for recursive lambdas.
