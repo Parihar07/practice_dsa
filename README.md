@@ -5,10 +5,7 @@ Collection of data structures and algorithms practice problems, primarily implem
 ## Repository Layout
 
 - `problems/cpp/<topic>/<problem>` – topic-first organization for C++ solutions.
-	- Example: `problems/cpp/graphs/graph_bipartie/graph_bipartie/main.cpp`
-- `restructure_plan.json` – machine-generated mapping from the original layout to the standardized structure (kept for reference).
-
-### Topics
+  - Example: `problems/cpp/graphs/graph_bipartie/graph_bipartie/main.cpp`### Topics
 
 Current topic folders under `problems/cpp/` include:
 
