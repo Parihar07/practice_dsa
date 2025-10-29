@@ -1,0 +1,1158 @@
+[
+  {
+    "source": "Array_100People",
+    "target": "problems/cpp/arrays/array_100_people"
+  },
+  {
+    "source": "BS_peakNumber",
+    "target": "problems/cpp/binary_search/bs_peak_number"
+  },
+  {
+    "source": "BS_searchinrange",
+    "target": "problems/cpp/binary_search/bs_searchinrange"
+  },
+  {
+    "source": "BS_sortedinsert",
+    "target": "problems/cpp/binary_search/bs_sortedinsert"
+  },
+  {
+    "source": "DLL_SwapPairs",
+    "target": "problems/cpp/linked_list/dll_swap_pairs"
+  },
+  {
+    "source": "DLL_design",
+    "target": "problems/cpp/linked_list/dll_design"
+  },
+  {
+    "source": "DLL_isPalindrome",
+    "target": "problems/cpp/linked_list/dll_is_palindrome"
+  },
+  {
+    "source": "DLL_reverse",
+    "target": "problems/cpp/linked_list/dll_reverse"
+  },
+  {
+    "source": "DLL_swapFirstLast",
+    "target": "problems/cpp/linked_list/dll_swap_first_last"
+  },
+  {
+    "source": "DP_DanceParty",
+    "target": "problems/cpp/dynamic_programming/dp_dance_party"
+  },
+  {
+    "source": "DP_Fibnacci",
+    "target": "problems/cpp/dynamic_programming/dp_fibnacci"
+  },
+  {
+    "source": "DP_NStairs",
+    "target": "problems/cpp/dynamic_programming/dp_nstairs"
+  },
+  {
+    "source": "DP_perfectsquares",
+    "target": "problems/cpp/dynamic_programming/dp_perfectsquares"
+  },
+  {
+    "source": "DSA.xcworkspace",
+    "target": "problems/cpp/misc/dsa_xcworkspace"
+  },
+  {
+    "source": "EvenSubArrays",
+    "target": "problems/cpp/misc/even_sub_arrays"
+  },
+  {
+    "source": "LL-SwapPairs",
+    "target": "problems/cpp/linked_list/ll_swap_pairs"
+  },
+  {
+    "source": "LL_Basic",
+    "target": "problems/cpp/linked_list/ll_basic"
+  },
+  {
+    "source": "LL_Binary2Decci",
+    "target": "problems/cpp/linked_list/ll_binary2_decci"
+  },
+  {
+    "source": "LL_DesignLinkedList",
+    "target": "problems/cpp/linked_list/ll_design_linked_list"
+  },
+  {
+    "source": "LL_ReverseBetween",
+    "target": "problems/cpp/linked_list/ll_reverse_between"
+  },
+  {
+    "source": "LL_clonelinkedList",
+    "target": "problems/cpp/linked_list/ll_clonelinked_list"
+  },
+  {
+    "source": "LL_insertdeleteprint",
+    "target": "problems/cpp/linked_list/ll_insertdeleteprint"
+  },
+  {
+    "source": "LL_linkedlist",
+    "target": "problems/cpp/linked_list/ll_linkedlist"
+  },
+  {
+    "source": "LL_mergesorted",
+    "target": "problems/cpp/linked_list/ll_mergesorted"
+  },
+  {
+    "source": "LL_partitionList",
+    "target": "problems/cpp/linked_list/ll_partition_list"
+  },
+  {
+    "source": "LL_removeDupl",
+    "target": "problems/cpp/linked_list/ll_remove_dupl"
+  },
+  {
+    "source": "LL_reverse_b2c",
+    "target": "problems/cpp/linked_list/ll_reverse_b2c"
+  },
+  {
+    "source": "LL_reverselistKgroups",
+    "target": "problems/cpp/linked_list/ll_reverselist_kgroups"
+  },
+  {
+    "source": "LL_ver2",
+    "target": "problems/cpp/linked_list/ll_ver2"
+  },
+  {
+    "source": "LeaderInArray",
+    "target": "problems/cpp/arrays/leader_in_array"
+  },
+  {
+    "source": "PN_CntDivs",
+    "target": "problems/cpp/number_theory/pn_cnt_divs"
+  },
+  {
+    "source": "PN_LuckyNumbers",
+    "target": "problems/cpp/number_theory/pn_lucky_numbers"
+  },
+  {
+    "source": "PN_primesum",
+    "target": "problems/cpp/number_theory/pn_primesum"
+  },
+  {
+    "source": "TreeTraversals",
+    "target": "problems/cpp/trees/tree_traversals"
+  },
+  {
+    "source": "alternatingSubArray",
+    "target": "problems/cpp/misc/alternating_sub_array"
+  },
+  {
+    "source": "amazingSubArr",
+    "target": "problems/cpp/misc/amazing_sub_arr"
+  },
+  {
+    "source": "armstrongNUm",
+    "target": "problems/cpp/number_theory/armstrong_num"
+  },
+  {
+    "source": "array_beggarstory",
+    "target": "problems/cpp/arrays/array_beggarstory"
+  },
+  {
+    "source": "array_christmastree",
+    "target": "problems/cpp/arrays/array_christmastree"
+  },
+  {
+    "source": "array_majority_element",
+    "target": "problems/cpp/arrays/array_majority_element"
+  },
+  {
+    "source": "array_max_contibin",
+    "target": "problems/cpp/arrays/array_max_contibin"
+  },
+  {
+    "source": "array_max_positivity",
+    "target": "problems/cpp/arrays/array_max_positivity"
+  },
+  {
+    "source": "array_min_swap",
+    "target": "problems/cpp/arrays/array_min_swap"
+  },
+  {
+    "source": "array_overalpping_rect",
+    "target": "problems/cpp/arrays/array_overalpping_rect"
+  },
+  {
+    "source": "array_rainwatertrap",
+    "target": "problems/cpp/arrays/array_rainwatertrap"
+  },
+  {
+    "source": "array_rect_angle",
+    "target": "problems/cpp/arrays/array_rect_angle"
+  },
+  {
+    "source": "arrays_BinaryFlip",
+    "target": "problems/cpp/arrays/arrays_binary_flip"
+  },
+  {
+    "source": "arrays_maxContSubarray",
+    "target": "problems/cpp/arrays/arrays_max_cont_subarray"
+  },
+  {
+    "source": "arrays_maxNonNegSubArr",
+    "target": "problems/cpp/arrays/arrays_max_non_neg_sub_arr"
+  },
+  {
+    "source": "arrays_maxabsdiff",
+    "target": "problems/cpp/arrays/arrays_maxabsdiff"
+  },
+  {
+    "source": "arrays_mergeIntervals",
+    "target": "problems/cpp/arrays/arrays_merge_intervals"
+  },
+  {
+    "source": "arrays_missinginteger",
+    "target": "problems/cpp/arrays/arrays_missinginteger"
+  },
+  {
+    "source": "arrays_plusone",
+    "target": "problems/cpp/arrays/arrays_plusone"
+  },
+  {
+    "source": "arrays_swapcount",
+    "target": "problems/cpp/arrays/arrays_swapcount"
+  },
+  {
+    "source": "backtracking_NQueens",
+    "target": "problems/cpp/misc/backtracking_nqueens"
+  },
+  {
+    "source": "backtracking_ndigiNum",
+    "target": "problems/cpp/misc/backtracking_ndigi_num"
+  },
+  {
+    "source": "backtracking_subsets",
+    "target": "problems/cpp/misc/backtracking_subsets"
+  },
+  {
+    "source": "backtracking_subsets2",
+    "target": "problems/cpp/misc/backtracking_subsets2"
+  },
+  {
+    "source": "bm_add_binaryString",
+    "target": "problems/cpp/bit_manipulation/bm_add_binary_string"
+  },
+  {
+    "source": "bm_compressionProblem",
+    "target": "problems/cpp/bit_manipulation/bm_compression_problem"
+  },
+  {
+    "source": "bm_countSetBits",
+    "target": "problems/cpp/bit_manipulation/bm_count_set_bits"
+  },
+  {
+    "source": "bm_singleNumber",
+    "target": "problems/cpp/bit_manipulation/bm_single_number"
+  },
+  {
+    "source": "bm_subarray_or",
+    "target": "problems/cpp/bit_manipulation/bm_subarray_or"
+  },
+  {
+    "source": "bm_thriceNumbers",
+    "target": "problems/cpp/bit_manipulation/bm_thrice_numbers"
+  },
+  {
+    "source": "bm_unsetXbitsright",
+    "target": "problems/cpp/bit_manipulation/bm_unset_xbitsright"
+  },
+  {
+    "source": "bs_aggeresivecows",
+    "target": "problems/cpp/binary_search/bs_aggeresivecows"
+  },
+  {
+    "source": "bs_painterpartition",
+    "target": "problems/cpp/binary_search/bs_painterpartition"
+  },
+  {
+    "source": "bs_squareRoot",
+    "target": "problems/cpp/binary_search/bs_square_root"
+  },
+  {
+    "source": "bs_targetinksortedarray",
+    "target": "problems/cpp/binary_search/bs_targetinksortedarray"
+  },
+  {
+    "source": "bulbs",
+    "target": "problems/cpp/arrays/bulbs"
+  },
+  {
+    "source": "closetMinMax",
+    "target": "problems/cpp/misc/closet_min_max"
+  },
+  {
+    "source": "cls",
+    "target": "problems/cpp/oop/cls"
+  },
+  {
+    "source": "clssObject",
+    "target": "problems/cpp/oop/clss_object"
+  },
+  {
+    "source": "countSubarray",
+    "target": "problems/cpp/arrays/count_subarray"
+  },
+  {
+    "source": "cpp_operatoroverlaoding",
+    "target": "problems/cpp/misc/cpp_operatoroverlaoding"
+  },
+  {
+    "source": "dp_fib_lambda",
+    "target": "problems/cpp/dynamic_programming/dp_fib_lambda"
+  },
+  {
+    "source": "dp_fibonacci",
+    "target": "problems/cpp/dynamic_programming/dp_fibonacci"
+  },
+  {
+    "source": "dp_maxSubSeqSum",
+    "target": "problems/cpp/dynamic_programming/dp_max_sub_seq_sum"
+  },
+  {
+    "source": "dp_maxpathMatrix",
+    "target": "problems/cpp/dynamic_programming/dp_maxpath_matrix"
+  },
+  {
+    "source": "dp_nstairs2",
+    "target": "problems/cpp/dynamic_programming/dp_nstairs2"
+  },
+  {
+    "source": "dp_perfectSqrs",
+    "target": "problems/cpp/dynamic_programming/dp_perfect_sqrs"
+  },
+  {
+    "source": "dp_totalways_grid_obstacles",
+    "target": "problems/cpp/dynamic_programming/dp_totalways_grid_obstacles"
+  },
+  {
+    "source": "dp_totalways_matrix",
+    "target": "problems/cpp/dynamic_programming/dp_totalways_matrix"
+  },
+  {
+    "source": "dsa",
+    "target": "problems/cpp/misc/dsa"
+  },
+  {
+    "source": "dsaa",
+    "target": "problems/cpp/misc/dsaa"
+  },
+  {
+    "source": "equilibium",
+    "target": "problems/cpp/arrays/equilibium"
+  },
+  {
+    "source": "factor",
+    "target": "problems/cpp/number_theory/factor"
+  },
+  {
+    "source": "gcd_deleteone",
+    "target": "problems/cpp/misc/gcd_deleteone"
+  },
+  {
+    "source": "gcd_findgcd",
+    "target": "problems/cpp/misc/gcd_findgcd"
+  },
+  {
+    "source": "goodPair",
+    "target": "problems/cpp/arrays/good_pair"
+  },
+  {
+    "source": "goodSubArray",
+    "target": "problems/cpp/arrays/good_sub_array"
+  },
+  {
+    "source": "graph_Batchs2",
+    "target": "problems/cpp/graphs/graph_batchs2"
+  },
+  {
+    "source": "graph_MSTEdges",
+    "target": "problems/cpp/graphs/graph_mstedges"
+  },
+  {
+    "source": "graph_Prims_MST",
+    "target": "problems/cpp/graphs/graph_prims_mst"
+  },
+  {
+    "source": "graph_ValidPath",
+    "target": "problems/cpp/graphs/graph_valid_path"
+  },
+  {
+    "source": "graph_bipartie",
+    "target": "problems/cpp/graphs/graph_bipartie"
+  },
+  {
+    "source": "graph_checkBiparte",
+    "target": "problems/cpp/graphs/graph_check_biparte"
+  },
+  {
+    "source": "graph_connectingIslandMST",
+    "target": "problems/cpp/graphs/graph_connecting_island_mst"
+  },
+  {
+    "source": "graph_constructRoads",
+    "target": "problems/cpp/graphs/graph_construct_roads"
+  },
+  {
+    "source": "graph_constructionCostMst",
+    "target": "problems/cpp/graphs/graph_construction_cost_mst"
+  },
+  {
+    "source": "graph_countComponents",
+    "target": "problems/cpp/graphs/graph_count_components"
+  },
+  {
+    "source": "graph_countIslands2",
+    "target": "problems/cpp/graphs/graph_count_islands2"
+  },
+  {
+    "source": "graph_cycleBellMenFord",
+    "target": "problems/cpp/graphs/graph_cycle_bell_men_ford"
+  },
+  {
+    "source": "graph_cycleUndirectedDfs",
+    "target": "problems/cpp/graphs/graph_cycle_undirected_dfs"
+  },
+  {
+    "source": "graph_cycledetectiondirectedgraph",
+    "target": "problems/cpp/graphs/graph_cycledetectiondirectedgraph"
+  },
+  {
+    "source": "graph_damagedroadMST",
+    "target": "problems/cpp/graphs/graph_damagedroad_mst"
+  },
+  {
+    "source": "graph_damagedroads_primsMST",
+    "target": "problems/cpp/graphs/graph_damagedroads_prims_mst"
+  },
+  {
+    "source": "graph_dfs_connectiedtowns",
+    "target": "problems/cpp/graphs/graph_dfs_connectiedtowns"
+  },
+  {
+    "source": "graph_dfs_ifconnected",
+    "target": "problems/cpp/graphs/graph_dfs_ifconnected"
+  },
+  {
+    "source": "graph_edgestobipartie",
+    "target": "problems/cpp/graphs/graph_edgestobipartie"
+  },
+  {
+    "source": "graph_getPathParenttable",
+    "target": "problems/cpp/graphs/graph_get_path_parenttable"
+  },
+  {
+    "source": "graph_ifnodevisited",
+    "target": "problems/cpp/graphs/graph_ifnodevisited"
+  },
+  {
+    "source": "graph_kruskal",
+    "target": "problems/cpp/graphs/graph_kruskal"
+  },
+  {
+    "source": "graph_lenghtofshortpath",
+    "target": "problems/cpp/graphs/graph_lenghtofshortpath"
+  },
+  {
+    "source": "graph_minDistanceUndire",
+    "target": "problems/cpp/graphs/graph_min_distance_undire"
+  },
+  {
+    "source": "graph_pathindirectedgraph",
+    "target": "problems/cpp/graphs/graph_pathindirectedgraph"
+  },
+  {
+    "source": "graph_petrolbunkblast",
+    "target": "problems/cpp/graphs/graph_petrolbunkblast"
+  },
+  {
+    "source": "graph_shortDistancePath",
+    "target": "problems/cpp/graphs/graph_short_distance_path"
+  },
+  {
+    "source": "graph_toplogicalSort",
+    "target": "problems/cpp/graphs/graph_toplogical_sort"
+  },
+  {
+    "source": "graph_topoSort",
+    "target": "problems/cpp/graphs/graph_topo_sort"
+  },
+  {
+    "source": "graphs_BridgesDfs",
+    "target": "problems/cpp/graphs/graphs_bridges_dfs"
+  },
+  {
+    "source": "graphs_DiscEndTimeDFS",
+    "target": "problems/cpp/graphs/graphs_disc_end_time_dfs"
+  },
+  {
+    "source": "graphs_articulationPoint",
+    "target": "problems/cpp/graphs/graphs_articulation_point"
+  },
+  {
+    "source": "graphs_articulationPointDfs",
+    "target": "problems/cpp/graphs/graphs_articulation_point_dfs"
+  },
+  {
+    "source": "graphs_basics",
+    "target": "problems/cpp/graphs/graphs_basics"
+  },
+  {
+    "source": "graphs_batchs",
+    "target": "problems/cpp/graphs/graphs_batchs"
+  },
+  {
+    "source": "graphs_bellmanford",
+    "target": "problems/cpp/graphs/graphs_bellmanford"
+  },
+  {
+    "source": "graphs_buildAdjacency_list_matrix",
+    "target": "problems/cpp/graphs/graphs_build_adjacency_list_matrix"
+  },
+  {
+    "source": "graphs_countIslands",
+    "target": "problems/cpp/graphs/graphs_count_islands"
+  },
+  {
+    "source": "graphs_courseProblem",
+    "target": "problems/cpp/graphs/graphs_course_problem"
+  },
+  {
+    "source": "graphs_cycleindirectedgraph",
+    "target": "problems/cpp/graphs/graphs_cycleindirectedgraph"
+  },
+  {
+    "source": "graphs_diameterofbridge",
+    "target": "problems/cpp/graphs/graphs_diameterofbridge"
+  },
+  {
+    "source": "graphs_multiplesourcesdistance",
+    "target": "problems/cpp/graphs/graphs_multiplesourcesdistance"
+  },
+  {
+    "source": "graphs_rottenorange",
+    "target": "problems/cpp/graphs/graphs_rottenorange"
+  },
+  {
+    "source": "hash_chkPalindrome",
+    "target": "problems/cpp/hashing/hash_chk_palindrome"
+  },
+  {
+    "source": "hash_colorfull",
+    "target": "problems/cpp/hashing/hash_colorfull"
+  },
+  {
+    "source": "hash_commonElements",
+    "target": "problems/cpp/hashing/hash_common_elements"
+  },
+  {
+    "source": "hash_firstRepeating",
+    "target": "problems/cpp/hashing/hash_first_repeating"
+  },
+  {
+    "source": "hash_kOccurances",
+    "target": "problems/cpp/hashing/hash_k_occurances"
+  },
+  {
+    "source": "hash_pairXOR",
+    "target": "problems/cpp/hashing/hash_pair_xor"
+  },
+  {
+    "source": "hash_subarayforsum",
+    "target": "problems/cpp/hashing/hash_subarayforsum"
+  },
+  {
+    "source": "hash_subarrayZero",
+    "target": "problems/cpp/hashing/hash_subarray_zero"
+  },
+  {
+    "source": "hashing_2SUm",
+    "target": "problems/cpp/hashing/hashing_2_sum"
+  },
+  {
+    "source": "hashing_Diffk",
+    "target": "problems/cpp/hashing/hashing_diffk"
+  },
+  {
+    "source": "hashing_DistinctinWindw",
+    "target": "problems/cpp/hashing/hashing_distinctin_windw"
+  },
+  {
+    "source": "hashing_countpairdiff",
+    "target": "problems/cpp/hashing/hashing_countpairdiff"
+  },
+  {
+    "source": "hashing_countsubarraysumzero",
+    "target": "problems/cpp/hashing/hashing_countsubarraysumzero"
+  },
+  {
+    "source": "hashing_isDictionary",
+    "target": "problems/cpp/hashing/hashing_is_dictionary"
+  },
+  {
+    "source": "hashing_longsubarraysumzero",
+    "target": "problems/cpp/hashing/hashing_longsubarraysumzero"
+  },
+  {
+    "source": "hashing_pairsum",
+    "target": "problems/cpp/hashing/hashing_pairsum"
+  },
+  {
+    "source": "hashing_specialNumber",
+    "target": "problems/cpp/hashing/hashing_special_number"
+  },
+  {
+    "source": "hashing_subArraySum",
+    "target": "problems/cpp/hashing/hashing_sub_array_sum"
+  },
+  {
+    "source": "heap_buildHeap",
+    "target": "problems/cpp/heaps/heap_build_heap"
+  },
+  {
+    "source": "heap_connectingropes",
+    "target": "problems/cpp/heaps/heap_connectingropes"
+  },
+  {
+    "source": "heap_heapQuery",
+    "target": "problems/cpp/heaps/heap_heap_query"
+  },
+  {
+    "source": "heap_product0f3",
+    "target": "problems/cpp/heaps/heap_product0f3"
+  },
+  {
+    "source": "heap_product3",
+    "target": "problems/cpp/heaps/heap_product3"
+  },
+  {
+    "source": "hello",
+    "target": "problems/cpp/misc/hello"
+  },
+  {
+    "source": "lambdaa",
+    "target": "problems/cpp/misc/lambdaa"
+  },
+  {
+    "source": "leastAvgSubArray",
+    "target": "problems/cpp/misc/least_avg_sub_array"
+  },
+  {
+    "source": "ma_A_B_Modulo",
+    "target": "problems/cpp/math/ma_a_b_modulo"
+  },
+  {
+    "source": "ma_divisibleEight",
+    "target": "problems/cpp/math/ma_divisible_eight"
+  },
+  {
+    "source": "ma_exceltitle",
+    "target": "problems/cpp/math/ma_exceltitle"
+  },
+  {
+    "source": "matricAddition",
+    "target": "problems/cpp/matrix/matric_addition"
+  },
+  {
+    "source": "matrics_sumSubmatric",
+    "target": "problems/cpp/matrix/matrics_sum_submatric"
+  },
+  {
+    "source": "matrix_col_sum",
+    "target": "problems/cpp/matrix/matrix_col_sum"
+  },
+  {
+    "source": "matrix_diagnols",
+    "target": "problems/cpp/matrix/matrix_diagnols"
+  },
+  {
+    "source": "matrix_equal",
+    "target": "problems/cpp/matrix/matrix_equal"
+  },
+  {
+    "source": "matrix_findnumnerinsorted",
+    "target": "problems/cpp/matrix/matrix_findnumnerinsorted"
+  },
+  {
+    "source": "matrix_maxSumSubarray",
+    "target": "problems/cpp/matrix/matrix_max_sum_subarray"
+  },
+  {
+    "source": "matrix_maxsubmatrixsum_sorted",
+    "target": "problems/cpp/matrix/matrix_maxsubmatrixsum_sorted"
+  },
+  {
+    "source": "matrix_minor_diagnol_sum",
+    "target": "problems/cpp/matrix/matrix_minor_diagnol_sum"
+  },
+  {
+    "source": "matrix_multi",
+    "target": "problems/cpp/matrix/matrix_multi"
+  },
+  {
+    "source": "matrix_rotate",
+    "target": "problems/cpp/matrix/matrix_rotate"
+  },
+  {
+    "source": "matrix_row_col_zero",
+    "target": "problems/cpp/matrix/matrix_row_col_zero"
+  },
+  {
+    "source": "matrix_row_sum",
+    "target": "problems/cpp/matrix/matrix_row_sum"
+  },
+  {
+    "source": "matrix_scaler_multiplication",
+    "target": "problems/cpp/matrix/matrix_scaler_multiplication"
+  },
+  {
+    "source": "matrix_sortedBinary",
+    "target": "problems/cpp/matrix/matrix_sorted_binary"
+  },
+  {
+    "source": "matrix_spiral",
+    "target": "problems/cpp/matrix/matrix_spiral"
+  },
+  {
+    "source": "matrix_sub",
+    "target": "problems/cpp/matrix/matrix_sub"
+  },
+  {
+    "source": "matrix_submatrixsumqueries",
+    "target": "problems/cpp/matrix/matrix_submatrixsumqueries"
+  },
+  {
+    "source": "matrix_sum_diagnol",
+    "target": "problems/cpp/matrix/matrix_sum_diagnol"
+  },
+  {
+    "source": "matrix_transpose",
+    "target": "problems/cpp/matrix/matrix_transpose"
+  },
+  {
+    "source": "maxSubArray",
+    "target": "problems/cpp/arrays/max_sub_array"
+  },
+  {
+    "source": "maxminArray",
+    "target": "problems/cpp/arrays/maxmin_array"
+  },
+  {
+    "source": "minPicks",
+    "target": "problems/cpp/arrays/min_picks"
+  },
+  {
+    "source": "multiThreading",
+    "target": "problems/cpp/multithreading/multi_threading"
+  },
+  {
+    "source": "multiples",
+    "target": "problems/cpp/multithreading/multiples"
+  },
+  {
+    "source": "nonDecreasingArr",
+    "target": "problems/cpp/misc/non_decreasing_arr"
+  },
+  {
+    "source": "oops_LRU",
+    "target": "problems/cpp/oop/oops_lru"
+  },
+  {
+    "source": "oops_inheritance",
+    "target": "problems/cpp/oop/oops_inheritance"
+  },
+  {
+    "source": "oops_multilevelInheritance",
+    "target": "problems/cpp/oop/oops_multilevel_inheritance"
+  },
+  {
+    "source": "perfectNum",
+    "target": "problems/cpp/number_theory/perfect_num"
+  },
+  {
+    "source": "perfectSquare",
+    "target": "problems/cpp/number_theory/perfect_square"
+  },
+  {
+    "source": "pick",
+    "target": "problems/cpp/arrays/pick"
+  },
+  {
+    "source": "pn_distinctprimes",
+    "target": "problems/cpp/number_theory/pn_distinctprimes"
+  },
+  {
+    "source": "ponnymax",
+    "target": "problems/cpp/misc/ponnymax"
+  },
+  {
+    "source": "primeNumber",
+    "target": "problems/cpp/number_theory/prime_number"
+  },
+  {
+    "source": "print_subarray_recursion",
+    "target": "problems/cpp/misc/print_subarray_recursion"
+  },
+  {
+    "source": "productPuzzle",
+    "target": "problems/cpp/misc/product_puzzle"
+  },
+  {
+    "source": "queue_Nint123",
+    "target": "problems/cpp/queue/queue_nint123"
+  },
+  {
+    "source": "queue_computertasks",
+    "target": "problems/cpp/queue/queue_computertasks"
+  },
+  {
+    "source": "queue_perfectnumber",
+    "target": "problems/cpp/queue/queue_perfectnumber"
+  },
+  {
+    "source": "queue_reverse_k",
+    "target": "problems/cpp/queue/queue_reverse_k"
+  },
+  {
+    "source": "rangeSum",
+    "target": "problems/cpp/arrays/range_sum"
+  },
+  {
+    "source": "recursion_fibinacci",
+    "target": "problems/cpp/recursion/recursion_fibinacci"
+  },
+  {
+    "source": "recursion_graycode",
+    "target": "problems/cpp/recursion/recursion_graycode"
+  },
+  {
+    "source": "recursion_palindrome",
+    "target": "problems/cpp/recursion/recursion_palindrome"
+  },
+  {
+    "source": "recursion_pow",
+    "target": "problems/cpp/recursion/recursion_pow"
+  },
+  {
+    "source": "recursion_string",
+    "target": "problems/cpp/recursion/recursion_string"
+  },
+  {
+    "source": "recursion_sumN",
+    "target": "problems/cpp/recursion/recursion_sum_n"
+  },
+  {
+    "source": "recursion_sumdigits",
+    "target": "problems/cpp/recursion/recursion_sumdigits"
+  },
+  {
+    "source": "recursion_sumofdigits",
+    "target": "problems/cpp/recursion/recursion_sumofdigits"
+  },
+  {
+    "source": "recursion_towerofhanoi",
+    "target": "problems/cpp/recursion/recursion_towerofhanoi"
+  },
+  {
+    "source": "recusrion_factorial",
+    "target": "problems/cpp/recursion/recusrion_factorial"
+  },
+  {
+    "source": "recusrion_fibnaci",
+    "target": "problems/cpp/recursion/recusrion_fibnaci"
+  },
+  {
+    "source": "recusrion_palindrome",
+    "target": "problems/cpp/recursion/recusrion_palindrome"
+  },
+  {
+    "source": "recusrion_reverseStr",
+    "target": "problems/cpp/recursion/recusrion_reverse_str"
+  },
+  {
+    "source": "recusrion_sumdigits",
+    "target": "problems/cpp/recursion/recusrion_sumdigits"
+  },
+  {
+    "source": "reverseArray",
+    "target": "problems/cpp/arrays/reverse_array"
+  },
+  {
+    "source": "rotateArrLeft",
+    "target": "problems/cpp/arrays/rotate_arr_left"
+  },
+  {
+    "source": "rotateArray",
+    "target": "problems/cpp/arrays/rotate_array"
+  },
+  {
+    "source": "rotateLeft",
+    "target": "problems/cpp/arrays/rotate_left"
+  },
+  {
+    "source": "searchArray",
+    "target": "problems/cpp/arrays/search_array"
+  },
+  {
+    "source": "secMax",
+    "target": "problems/cpp/misc/sec_max"
+  },
+  {
+    "source": "sepOddEven",
+    "target": "problems/cpp/misc/sep_odd_even"
+  },
+  {
+    "source": "sorting_PwrModules",
+    "target": "problems/cpp/sorting/sorting_pwr_modules"
+  },
+  {
+    "source": "sorting_SortMergeSort",
+    "target": "problems/cpp/sorting/sorting_sort_merge_sort"
+  },
+  {
+    "source": "sorting_arithmaticProgression",
+    "target": "problems/cpp/sorting/sorting_arithmatic_progression"
+  },
+  {
+    "source": "sorting_colorSort",
+    "target": "problems/cpp/sorting/sorting_color_sort"
+  },
+  {
+    "source": "sorting_consecutiveelements",
+    "target": "problems/cpp/sorting/sorting_consecutiveelements"
+  },
+  {
+    "source": "sorting_countswapinsertion",
+    "target": "problems/cpp/sorting/sorting_countswapinsertion"
+  },
+  {
+    "source": "sorting_elementremoval",
+    "target": "problems/cpp/sorting/sorting_elementremoval"
+  },
+  {
+    "source": "sorting_factorsSort",
+    "target": "problems/cpp/sorting/sorting_factors_sort"
+  },
+  {
+    "source": "sorting_inversioncount",
+    "target": "problems/cpp/sorting/sorting_inversioncount"
+  },
+  {
+    "source": "sorting_kthSmallest",
+    "target": "problems/cpp/sorting/sorting_kth_smallest"
+  },
+  {
+    "source": "sorting_largetNumber",
+    "target": "problems/cpp/sorting/sorting_larget_number"
+  },
+  {
+    "source": "sorting_maxmod",
+    "target": "problems/cpp/sorting/sorting_maxmod"
+  },
+  {
+    "source": "sorting_mergesortdarrays",
+    "target": "problems/cpp/sorting/sorting_mergesortdarrays"
+  },
+  {
+    "source": "sorting_mergesubarray",
+    "target": "problems/cpp/sorting/sorting_mergesubarray"
+  },
+  {
+    "source": "sorting_nobleNumber",
+    "target": "problems/cpp/sorting/sorting_noble_number"
+  },
+  {
+    "source": "sorting_qsort",
+    "target": "problems/cpp/sorting/sorting_qsort"
+  },
+  {
+    "source": "sorting_rearrange_qsort",
+    "target": "problems/cpp/sorting/sorting_rearrange_qsort"
+  },
+  {
+    "source": "sorting_rearrange_ret_pos",
+    "target": "problems/cpp/sorting/sorting_rearrange_ret_pos"
+  },
+  {
+    "source": "sorting_reversepair",
+    "target": "problems/cpp/sorting/sorting_reversepair"
+  },
+  {
+    "source": "sorting_sumthediffernce",
+    "target": "problems/cpp/sorting/sorting_sumthediffernce"
+  },
+  {
+    "source": "specialIndex",
+    "target": "problems/cpp/arrays/special_index"
+  },
+  {
+    "source": "specialSubseq",
+    "target": "problems/cpp/arrays/special_subseq"
+  },
+  {
+    "source": "sqroot",
+    "target": "problems/cpp/misc/sqroot"
+  },
+  {
+    "source": "stack_bal_paranths",
+    "target": "problems/cpp/stack/stack_bal_paranths"
+  },
+  {
+    "source": "stack_charTroub",
+    "target": "problems/cpp/stack/stack_char_troub"
+  },
+  {
+    "source": "stack_greaterleft",
+    "target": "problems/cpp/stack/stack_greaterleft"
+  },
+  {
+    "source": "stack_largestRectHisto",
+    "target": "problems/cpp/stack/stack_largest_rect_histo"
+  },
+  {
+    "source": "stack_smallerleft",
+    "target": "problems/cpp/stack/stack_smallerleft"
+  },
+  {
+    "source": "string_eord_reverse",
+    "target": "problems/cpp/misc/string_eord_reverse"
+  },
+  {
+    "source": "string_getprefix",
+    "target": "problems/cpp/misc/string_getprefix"
+  },
+  {
+    "source": "studymaterial",
+    "target": "problems/cpp/misc/studymaterial"
+  },
+  {
+    "source": "sumOfSubArrays",
+    "target": "problems/cpp/arrays/sum_of_sub_arrays"
+  },
+  {
+    "source": "sumofnnaturalnum",
+    "target": "problems/cpp/arrays/sumofnnaturalnum"
+  },
+  {
+    "source": "timetoEquality",
+    "target": "problems/cpp/misc/timeto_equality"
+  },
+  {
+    "source": "tires_maxXOR",
+    "target": "problems/cpp/trie/tires_max_xor"
+  },
+  {
+    "source": "tires_maxXORsubarray",
+    "target": "problems/cpp/trie/tires_max_xorsubarray"
+  },
+  {
+    "source": "tree_LCA_DFS",
+    "target": "problems/cpp/trees/tree_lca_dfs"
+  },
+  {
+    "source": "tree_diameter",
+    "target": "problems/cpp/trees/tree_diameter"
+  },
+  {
+    "source": "tree_diameter2",
+    "target": "problems/cpp/trees/tree_diameter2"
+  },
+  {
+    "source": "tree_height",
+    "target": "problems/cpp/trees/tree_height"
+  },
+  {
+    "source": "tree_inorder_iterative",
+    "target": "problems/cpp/trees/tree_inorder_iterative"
+  },
+  {
+    "source": "tree_leftview",
+    "target": "problems/cpp/trees/tree_leftview"
+  },
+  {
+    "source": "tree_levelorder",
+    "target": "problems/cpp/trees/tree_levelorder"
+  },
+  {
+    "source": "tree_maxXor",
+    "target": "problems/cpp/trees/tree_max_xor"
+  },
+  {
+    "source": "tree_morristraversal",
+    "target": "problems/cpp/trees/tree_morristraversal"
+  },
+  {
+    "source": "tree_preorder_iterative",
+    "target": "problems/cpp/trees/tree_preorder_iterative"
+  },
+  {
+    "source": "tree_rightview",
+    "target": "problems/cpp/trees/tree_rightview"
+  },
+  {
+    "source": "trees_bfs_binaryLiftingkancstor",
+    "target": "problems/cpp/trees/trees_bfs_binary_liftingkancstor"
+  },
+  {
+    "source": "trees_bfs_parentarray",
+    "target": "problems/cpp/trees/trees_bfs_parentarray"
+  },
+  {
+    "source": "trees_binarylifting_ancestork",
+    "target": "problems/cpp/trees/trees_binarylifting_ancestork"
+  },
+  {
+    "source": "trees_binarylifting_lca",
+    "target": "problems/cpp/trees/trees_binarylifting_lca"
+  },
+  {
+    "source": "trees_countNodes",
+    "target": "problems/cpp/trees/trees_count_nodes"
+  },
+  {
+    "source": "trees_createTreeInorderPreorder",
+    "target": "problems/cpp/trees/trees_create_tree_inorder_preorder"
+  },
+  {
+    "source": "trees_createtreeInorderPostorder",
+    "target": "problems/cpp/trees/trees_createtree_inorder_postorder"
+  },
+  {
+    "source": "trees_design",
+    "target": "problems/cpp/trees/trees_design"
+  },
+  {
+    "source": "trees_findk",
+    "target": "problems/cpp/trees/trees_findk"
+  },
+  {
+    "source": "trees_nextlink",
+    "target": "problems/cpp/trees/trees_nextlink"
+  },
+  {
+    "source": "trees_parrentarray_lca",
+    "target": "problems/cpp/trees/trees_parrentarray_lca"
+  },
+  {
+    "source": "trees_validBinSearch",
+    "target": "problems/cpp/trees/trees_valid_bin_search"
+  },
+  {
+    "source": "trees_verticalOrderTraversal",
+    "target": "problems/cpp/trees/trees_vertical_order_traversal"
+  },
+  {
+    "source": "trees_zigzagtraversal",
+    "target": "problems/cpp/trees/trees_zigzagtraversal"
+  },
+  {
+    "source": "trie_spellingchecker",
+    "target": "problems/cpp/trie/trie_spellingchecker"
+  },
+  {
+    "source": "win_dev",
+    "target": "problems/cpp/misc/win_dev"
+  }
+]
