@@ -12,17 +12,21 @@ Problems exploring recursive thinking, backtracking, and divide-and-conquer appr
 - Tree recursion vs linear recursion
 
 ## Problems in this Directory
-- `rec_array/` - Recursive array sum
-- `recursion_fibinacci/` - Fibonacci sequence
-- `recursion_factorial/` - Factorial calculation
-- `recursion_palindrome/` - Check palindrome recursively
-- `recursion_pow/` - Power function (x^n)
-- `recursion_string/` - String manipulation with recursion
-- `recursion_sum_n/` - Sum of N natural numbers
-- `recursion_sumdigits/` - Sum of digits
-- `recursion_towerofhanoi/` - Tower of Hanoi puzzle
-- `recursion_graycode/` - Gray code generation
-- And more...
+- [rec_array](rec_array/) - Recursive array sum
+- [recursion_fibinacci](recursion_fibinacci/) - Fibonacci sequence
+- [recusrion_factorial](recusrion_factorial/) - Factorial calculation
+- [recursion_palindrome](recursion_palindrome/) - Check palindrome recursively
+- [recusrion_palindrome](recusrion_palindrome/) - Palindrome check (alternate)
+- [recursion_pow](recursion_pow/) - Power function (x^n)
+- [recursion_string](recursion_string/) - String manipulation with recursion
+- [recursion_sum_n](recursion_sum_n/) - Sum of N natural numbers
+- [recursion_sumdigits](recursion_sumdigits/) - Sum of digits
+- [recursion_sumofdigits](recursion_sumofdigits/) - Sum of digits (alternate)
+- [recusrion_sumdigits](recusrion_sumdigits/) - Sum of digits (third version)
+- [recursion_towerofhanoi](recursion_towerofhanoi/) - Tower of Hanoi puzzle
+- [recursion_graycode](recursion_graycode/) - Gray code generation
+- [recusrion_fibnaci](recusrion_fibnaci/) - Fibonacci (alternate spelling)
+- [recusrion_reverse_str](recusrion_reverse_str/) - Reverse string recursively
 
 ## Tips
 - Always define a clear base case

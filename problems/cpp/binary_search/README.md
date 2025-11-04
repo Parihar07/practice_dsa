@@ -12,14 +12,13 @@ Binary search algorithms and their variations.
 - Square root using binary search
 
 ## Problems in this Directory
-- `bs_sortedinsert/` - Find position in sorted array
-- `bs_searchinrange/` - Search in range
-- `bs_peak_number/` - Find peak element
-- `bs_square_root/` - Calculate square root using BS
-- `bs_targetinksortedarray/` - Search in K-sorted array
-- `bs_aggeresivecows/` - Aggressive cows problem
-- `bs_painterpartition/` - Painter's partition problem
-- And more...
+- [bs_sortedinsert](bs_sortedinsert/) - Find position in sorted array
+- [bs_searchinrange](bs_searchinrange/) - Search in range
+- [bs_peak_number](bs_peak_number/) - Find peak element
+- [bs_square_root](bs_square_root/) - Calculate square root using BS
+- [bs_targetinksortedarray](bs_targetinksortedarray/) - Search in K-sorted array
+- [bs_aggeresivecows](bs_aggeresivecows/) - Aggressive cows problem
+- [bs_painterpartition](bs_painterpartition/) - Painter's partition problem
 
 ## Tips
 - Always maintain the invariant
