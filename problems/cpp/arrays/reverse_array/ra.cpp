@@ -74,8 +74,51 @@ vector<int> Solution::solve(const vector<int> &A) {
 int main()
 {
     Solution sol;
-    vector<int> v{2,3,4,5,6};
-    vector<int> rt = sol.solve(v);
-    return 0;
+    cout << "Testing Reverse Array\n";
+    cout << "=====================\n\n";
     
+    // Test 1: Normal case
+    vector<int> test1{2,3,4,5,6};
+    vector<int> result1 = sol.solve(test1);
+    cout << "Test 1 - [2,3,4,5,6]: ";
+    for(auto i:result1) cout << i << " ";
+    cout << (result1 == vector<int>{6,5,4,3,2} ? " ✓ PASS" : " ✗ FAIL") << "\n";
+    
+    // Test 2: Palindrome (example from problem)
+    vector<int> test2{1,2,3,2,1};
+    vector<int> result2 = sol.solve(test2);
+    cout << "Test 2 - [1,2,3,2,1]: ";
+    for(auto i:result2) cout << i << " ";
+    cout << (result2 == vector<int>{1,2,3,2,1} ? " ✓ PASS" : " ✗ FAIL") << "\n";
+    
+    // Test 3: From problem example
+    vector<int> test3{1,1,10};
+    vector<int> result3 = sol.solve(test3);
+    cout << "Test 3 - [1,1,10]: ";
+    for(auto i:result3) cout << i << " ";
+    cout << (result3 == vector<int>{10,1,1} ? " ✓ PASS" : " ✗ FAIL") << "\n";
+    
+    // Test 4: Single element
+    vector<int> test4{42};
+    vector<int> result4 = sol.solve(test4);
+    cout << "Test 4 - [42]: ";
+    for(auto i:result4) cout << i << " ";
+    cout << (result4 == vector<int>{42} ? " ✓ PASS" : " ✗ FAIL") << "\n";
+    
+    // Test 5: Two elements
+    vector<int> test5{10,20};
+    vector<int> result5 = sol.solve(test5);
+    cout << "Test 5 - [10,20]: ";
+    for(auto i:result5) cout << i << " ";
+    cout << (result5 == vector<int>{20,10} ? " ✓ PASS" : " ✗ FAIL") << "\n";
+    
+    // Test 6: All same elements
+    vector<int> test6{5,5,5,5};
+    vector<int> result6 = sol.solve(test6);
+    cout << "Test 6 - [5,5,5,5]: ";
+    for(auto i:result6) cout << i << " ";
+    cout << (result6 == vector<int>{5,5,5,5} ? " ✓ PASS" : " ✗ FAIL") << "\n";
+    
+    cout << "\n=====================\n";
+    return 0;
 }
