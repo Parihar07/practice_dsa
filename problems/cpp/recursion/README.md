@@ -27,6 +27,7 @@ Problems exploring recursive thinking, backtracking, and divide-and-conquer appr
 - [recursion_graycode](recursion_graycode/) - Gray code generation
 - [recusrion_fibnaci](recusrion_fibnaci/) - Fibonacci (alternate spelling)
 - [recusrion_reverse_str](recusrion_reverse_str/) - Reverse string recursively
+- [subseq_str](subseq_str/) - Generate all subsequences (3 approaches: vector, return, backtracking)
 
 ## Tips
 - Always define a clear base case
