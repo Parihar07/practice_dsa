@@ -21,7 +21,7 @@ practice_dsa/
 │       ├── graphs/              (43 problems)
 │       ├── trees/               (26 problems)
 │       ├── dynamic_programming/ (12 problems)
-│       ├── recursion/           (15 problems)
+│       ├── recursion/           (10 problems)
 │       ├── linked_list/         (19 problems)
 │       └── ... (14 more topics)
 └── README.md
@@ -48,7 +48,7 @@ Current topic folders under `problems/cpp/` include:
 - **[Number Theory](problems/cpp/number_theory/)** ([README](problems/cpp/number_theory/README.md)) - Prime numbers, GCD, modular arithmetic
 - **[Object-Oriented Programming](problems/cpp/oop/)** ([README](problems/cpp/oop/README.md)) - OOP concepts and design patterns
 - **[Queue](problems/cpp/queue/)** ([README](problems/cpp/queue/README.md)) - Queue data structure implementations
-- **[Recursion](problems/cpp/recursion/)** ([README](problems/cpp/recursion/README.md)) - Recursive algorithms and backtracking
+- **[Recursion](problems/cpp/recursion/)** ([README](problems/cpp/recursion/README.md)) - Recursive algorithms, backtracking, combinations, permutations, and more
 - **[Sorting](problems/cpp/sorting/)** ([README](problems/cpp/sorting/README.md)) - Sorting algorithms and applications
 - **[Stack](problems/cpp/stack/)** ([README](problems/cpp/stack/README.md)) - Stack data structure problems
 - **[Trees](problems/cpp/trees/)** ([README](problems/cpp/trees/README.md)) - Binary trees, BST, and tree traversals
