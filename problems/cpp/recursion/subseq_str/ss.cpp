@@ -3,6 +3,9 @@
 #include <string>
 using namespace std;
 
+// Method 1: Array-based approach with substr
+// Time Complexity: O(n * 2^n) - 2^n subsequences, each substr() takes O(n)
+// Space Complexity: O(n * 2^n) - call stack O(n), output array O(2^n), each string O(n)
 int subSeq(string ip, string op[])
 {
     // if string input is empty just return 1 as empty string ill also have one empty string output
@@ -19,7 +22,9 @@ int subSeq(string ip, string op[])
     return total * 2;
 }
 
-// vector based approach;
+// Method 2: Vector-based approach with substr
+// Time Complexity: O(n * 2^n) - 2^n subsequences, each substr() takes O(n)
+// Space Complexity: O(n * 2^n) - call stack O(n), vector stores O(2^n) strings, each O(n)
 size_t subSeqVec(string ip, vector<string> &op)
 {
     if (ip.size() == 0)
@@ -35,8 +40,9 @@ size_t subSeqVec(string ip, vector<string> &op)
     return total * 2;
 }
 
-// return vector string
-
+// Method 3: Return vector approach with substr
+// Time Complexity: O(n * 2^n) - 2^n subsequences, each substr() takes O(n)
+// Space Complexity: O(n * 2^n) - call stack O(n), creates new vectors at each level
 vector<string> subSeqRet(string ip)
 {
     if (ip.size() == 0)
@@ -51,8 +57,45 @@ vector<string> subSeqRet(string ip)
     return result;
 }
 
-// getting subseq by second method, theory is like from the given string either the indexed value will be present or not present hence rest will be managed by the recursion
+// Method 4: Optimized index-based vector approach (avoids substr overhead)
+// Time Complexity: O(n * 2^n) - 2^n subsequences, building each string takes O(n)
+// Space Complexity: O(n * 2^n) - call stack O(n), vector stores O(2^n) strings, each O(n)
+// Note: Faster than methods 1-3 as no substr() overhead, but still builds strings
+void subSeqVecOpt(string &str, vector<string> &op, size_t ind, string current = "")
+{
+    if (ind == str.size())
+    {
+        op.push_back(current);
+        return;
+    }
+    // Exclude current character
+    subSeqVecOpt(str, op, ind + 1, current);
+    // Include current character
+    subSeqVecOpt(str, op, ind + 1, current + str[ind]);
+}
 
+// Method 5: Optimized index-based return vector (avoids substr overhead)
+// Time Complexity: O(n * 2^n) - 2^n subsequences, building each string takes O(n)
+// Space Complexity: O(n * 2^n) - call stack O(n), creates vectors at each level
+vector<string> subSeqRetOpt(string &str, size_t ind = 0)
+{
+    if (ind == str.size())
+        return {""};
+
+    vector<string> res = subSeqRetOpt(str, ind + 1);
+    vector<string> result = res;
+    for (auto &i : res)
+    {
+        result.push_back(str[ind] + i);
+    }
+    return result;
+}
+
+// Method 6: Backtracking with print (include/exclude pattern) - MOST EFFICIENT for printing
+// Time Complexity: O(2^n) - only 2^n function calls, no string building overhead
+// Space Complexity: O(n) - call stack O(n), output string O(n), no storage of all subsequences
+// Note: Best approach when you just need to print/process subsequences, not store them
+// Theory: At each index, either include character or exclude it, recursion handles rest
 void subSeq2(string str, string &op, size_t ind)
 {
     if (ind == str.size())
@@ -122,6 +165,29 @@ int main()
     vector<string> four_char;
     size_t four_count = subSeqVec("abcd", four_char);
     cout << "Count: " << four_count << endl;
+
+    // Test Case 8: Optimized vector approach
+    cout << "\nTest 8: subSeqVecOpt with 'abc' (optimized, no substr)" << endl;
+    vector<string> opt_vop;
+    string test_str = "abc";
+    subSeqVecOpt(test_str, opt_vop, 0);
+    cout << "Count: " << opt_vop.size() << " | Output: ";
+    for (auto &s : opt_vop)
+    {
+        cout << "\"" << s << "\" ";
+    }
+    cout << endl;
+
+    // Test Case 9: Optimized return vector approach
+    cout << "\nTest 9: subSeqRetOpt with 'abc' (optimized, no substr)" << endl;
+    string test_str2 = "abc";
+    auto opt_res = subSeqRetOpt(test_str2);
+    cout << "Count: " << opt_res.size() << " | Output: ";
+    for (auto &s : opt_res)
+    {
+        cout << "\"" << s << "\" ";
+    }
+    cout << endl;
 
     cout << "\nAll tests completed!" << endl;
     return 0;

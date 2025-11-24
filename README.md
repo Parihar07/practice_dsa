@@ -21,7 +21,7 @@ practice_dsa/
 │       ├── graphs/              (43 problems)
 │       ├── trees/               (26 problems)
 │       ├── dynamic_programming/ (12 problems)
-│       ├── recursion/           (10 problems)
+│       ├── recursion/           (18 problems)
 │       ├── linked_list/         (19 problems)
 │       └── ... (14 more topics)
 └── README.md
