@@ -32,6 +32,7 @@ Problems exploring recursive thinking, backtracking, and divide-and-conquer appr
 - [printeq_a_b](printeq_a_b/) - Print all unique strings with given counts of 'a' and 'b' (multiset permutations)
 - [printallcombi](printallcombi/) - Print all combinations (subsets) of a set (recursive and bitmasking)
 - [permutation](permutation/) - Print all permutations of a string (handles duplicates)
+- [keypad_prob](keypad_prob/) - Print all possible letter combinations for a phone keypad digit string (recursive/backtracking)
 
 ## Tips
 - Always define a clear base case
