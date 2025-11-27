@@ -2,7 +2,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms_%26_Data_Structures-blueviolet)
 ![Languages](https://img.shields.io/badge/Languages-C%2B%2B_%7C_Python-blue)
-![Platform](https://img.shields.io/badge/Platform-_%2F_self-orange)
+![Platform](https://img.shields.io/badge/Platform-Online %2F_self-orange)
 
 A well-organized collection of **289+ Data Structures and Algorithms** problems implemented in C++. This repository serves as a comprehensive resource for anyone preparing for technical interviews, competitive programming, or looking to master fundamental CS concepts.
 
