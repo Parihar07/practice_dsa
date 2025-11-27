@@ -33,6 +33,7 @@ Problems exploring recursive thinking, backtracking, and divide-and-conquer appr
 - [printallcombi](printallcombi/) - Print all combinations (subsets) of a set (recursive and bitmasking)
 - [permutation](permutation/) - Print all permutations of a string (handles duplicates)
 - [keypad_prob](keypad_prob/) - Print all possible letter combinations for a phone keypad digit string (recursive/backtracking)
+- [nqueen](nqueen/) - N-Queens problem with backtracking (O(N) and O(1) checks)
 
 ## Tips
 - Always define a clear base case

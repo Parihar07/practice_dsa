@@ -2,11 +2,12 @@
 #include <vector>
 #include <algorithm>
 #include <unordered_set>
+using namespace std;
 
 /*
-Problem: Print All Permutations of a String
+Problem: Print All Permutations of a String (Handles Duplicates)
 
-Given a string, print all possible permutations of its characters.
+Given a string, print all possible permutations of its characters. If the string contains duplicate characters, print only unique permutations.
 
 Example:
 Input: "abc"
@@ -22,17 +23,15 @@ Input: "aab"
 Output:
   aab
   aba
-  aab
-  aba
-  baa
   baa
 
 Approach:
 - Use recursion and backtracking.
 - At each index, swap every character from idx to end with idx, recurse, then swap back.
+- Use a set at each recursion level to skip duplicate swaps.
 - Base case: when idx == length, print the string.
 
-Time Complexity: O(n!) (n factorial permutations for n unique characters)
+Time Complexity: O(n! * n) (n! unique permutations, each up to n swaps/prints)
 Space Complexity: O(n) (call stack)
 */
 
@@ -97,8 +96,6 @@ int main()
     // Test Case 6: Unique permutations for "aab"
     std::cout << "\nTest 6: Unique permutations for aab" << std::endl;
     std::string s6 = "aab";
-    // Note: Sorting is not required for this specific implementation using unordered_set,
-    // but it would be for other common approaches to this problem.
     uniquePermutations(s6, 0);
     return 0;
 }

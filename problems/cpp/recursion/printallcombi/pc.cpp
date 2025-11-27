@@ -1,6 +1,32 @@
 #include <iostream>
 #include <vector>
 
+/*
+Problem: Print All Combinations (Subsets) of a Set
+
+Given a set (vector) of integers, print all possible combinations (subsets) of its elements.
+
+Example:
+Input: {1, 2, 3}
+Output:
+  1 2 3
+  1 2
+  1 3
+  1
+  2 3
+  2
+  3
+  (empty line for empty set)
+
+Approach:
+- Use recursion and backtracking.
+- At each index, choose to include or exclude the current element.
+- Base case: when idx == input.size(), print the current subset.
+
+Time Complexity: O(2^n * n) (2^n subsets, each up to n elements)
+Space Complexity: O(n) (call stack and current subset)
+*/
+
 /**
  * @brief Recursively finds and prints all subsequences of a vector of integers.
  *
@@ -30,7 +56,7 @@ void printAllSubsequences(const std::vector<int> &input, std::vector<int> &curre
 
     // Decision 2: Do not include the current element in the subsequence.
     printAllSubsequences(input, currentSubsequence, index + 1);
-} 
+}
 
 /**
  * @brief Iteratively finds and prints all subsequences using bit manipulation.
@@ -56,6 +82,37 @@ void printAllSubsequencesIterative(const std::vector<int> &nums)
         }
         std::cout << "\n";
     }
+}
+
+/**
+ * @brief Recursively finds and prints all combinations (subsets) of a vector of integers.
+ *
+ * @param input The input vector of integers (read-only).
+ * @param currentCombination The combination being built in the current recursive path.
+ * @param index The current index in the input vector to consider.
+ */
+void printAllComb(const std::vector<int> &input, std::vector<int> &currentCombination, int index)
+{
+    // Base case: If we have considered all elements, print the current combination.
+    if (index == input.size())
+    {
+        for (int num : currentCombination)
+        {
+            std::cout << num << " ";
+        }
+        std::cout << "\n";
+        return;
+    }
+
+    // Include the current element in the combination.
+    currentCombination.push_back(input[index]);
+    printAllComb(input, currentCombination, index + 1);
+
+    // Backtrack: Remove the current element to explore the other path.
+    currentCombination.pop_back();
+
+    // Exclude the current element from the combination.
+    printAllComb(input, currentCombination, index + 1);
 }
 
 int main()
@@ -90,6 +147,25 @@ int main()
     std::vector<int> F{1, 2, 3, 4};
     b.clear();
     printAllSubsequences(F, b, 0);
+
+    std::cout << "\nPrinting all combinations (subsets) of {1, 2, 3}:\n";
+    // printAllComb(nums, emptySubset, 0); // Recursive way
+    // Iterative way not provided for combination due to complexity
+
+    std::cout << "\nTest 1: {1,2,3}" << std::endl;
+    printAllComb(A, b, 0);
+
+    std::cout << "\nTest 2: {5}" << std::endl;
+    printAllComb(C, b, 0);
+
+    std::cout << "\nTest 3: {7,8}" << std::endl;
+    printAllComb(D, b, 0);
+
+    std::cout << "\nTest 4: {} (empty input)" << std::endl;
+    printAllComb(E, b, 0);
+
+    std::cout << "\nTest 5: {1,2,3,4}" << std::endl;
+    printAllComb(F, b, 0);
 
     return 0;
 }
