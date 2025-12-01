@@ -76,3 +76,23 @@ dsa/dsa.xcodeproj/project.xcworkspace/*
 *.log
 *.idb
 *.pdb
+
+# Visual Studio specific files and folders
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ipch
+x64/
+Debug/
+Release/
+*.nativecodeanalysis.xml
+*.nativecodeanalysis.sarif
+CodeAnalysisResultManifest.txt
+FileListAbsolute.txt
+*.enc
