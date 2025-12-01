@@ -12,13 +12,22 @@ Bitwise operations and bit tricks for efficient problem solving.
 - Binary string operations
 
 ## Problems in this Directory
-- [bm_count_set_bits](bm_count_set_bits/) - Count 1s in binary representation
-- [bm_single_number](bm_single_number/) - Find single number using XOR
-- [bm_thrice_numbers](bm_thrice_numbers/) - Number appearing once (others thrice)
-- [bm_add_binary_string](bm_add_binary_string/) - Binary string addition
+
+### Counting Bits
+- [bm_countSetBits](bm_countSetBits/) - Count total set bits
+- [bm_count_set_bits](bm_count_set_bits/) - Count set bits variant
+
+### Single Number Problems
+- [bm_single_number](bm_single_number/) - Find single number (others appear twice)
+- [bm_thriceNumbers](bm_thriceNumbers/) - Find number appearing once (others thrice)
+
+### Binary String Operations
+- [bm_add_binary_string](bm_add_binary_string/) - Add two binary strings
+
+### Bitwise Operations
 - [bm_subarray_or](bm_subarray_or/) - Subarray OR operations
-- [bm_unset_xbitsright](bm_unset_xbitsright/) - Unset rightmost X bits
-- [bm_compression_problem](bm_compression_problem/) - Bit compression
+- [bm_unset_xbitsright](bm_unset_xbitsright/) - Unset X rightmost bits
+- [bm_compression_problem](bm_compression_problem/) - Compression using bits
 
 ## Tips
 - XOR is super useful: a^a=0, a^0=a
