@@ -1,0 +1,1309 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'p' contains the same NULL value as 'q->next' did. See line 35 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 6,
+                  "endLine": 31,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lPalinBF",
+                  "decoratedName": "?lPalinBF@@YAHPEAUListNode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'p' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume '1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'p->val!=q->val' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'p' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'q' contains the same NULL value as 'q->next' did. See line 35 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 6,
+                  "endLine": 31,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lPalinBF",
+                  "decoratedName": "?lPalinBF@@YAHPEAUListNode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'t' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('t->next!=q' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'q' receives the value of 't' (which may be NULL)"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume '1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'p->val!=q->val' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'q' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 't' contains the same NULL value as 'q->next' did. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 9,
+                  "endLine": 35,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lPalinBF",
+                  "decoratedName": "?lPalinBF@@YAHPEAUListNode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'t' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 't->next!=q')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'t' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'h' contains the same NULL value as 'q' did. See line 47 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 3,
+                  "endLine": 56,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "reverseLL",
+                  "decoratedName": "?reverseLL@@YAPEAUListNode@@PEAU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'h' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'h' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 's' contains the same NULL value as 'f' did. See line 63 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 23,
+                  "endLine": 81,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "lPalin",
+                  "decoratedName": "?lPalin@@YAHPEAUListNode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "'s' may be NULL (Skip this loop)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "'s' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32534.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/codebreaker/codebreaker/palindromeLinkedlist/pll.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d3519cbd5269915919a39f9ab8ddec833c4d8b4fa0a74d63ce94ebc56efc0084"
+          }
+        }
+      ]
+    }
+  ]
+}

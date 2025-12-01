@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+      <FILENAME>m.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'freqTable'.</DESCRIPTION>
+    <FUNCTION>UniqCntOpt</FUNCTION>
+    <DECORATED>?UniqCntOpt@@YAHQEBDH@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+        <FILENAME>m.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'freqTable' is an array of 27 elements (108 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+        <FILENAME>m.cpp</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+        <FILENAME>m.cpp</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+        <FILENAME>m.cpp</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;27')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+        <FILENAME>m.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+        <FILENAME>m.cpp</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+        <FILENAME>m.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'ch&gt;=97&amp;&amp;ch&lt;=122' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\uniqueCnt\</FILEPATH>
+        <FILENAME>m.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'freqTable[58]', (readable range is 0 to 26)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\codebreaker\codebreaker\linkedlist\</FILEPATH>
+      <FILENAME>ll.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Node::val' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Node::{ctor}</FUNCTION>
+    <DECORATED>??0Node@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Node::val</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

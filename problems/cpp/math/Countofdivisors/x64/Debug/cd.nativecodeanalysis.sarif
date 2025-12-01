@@ -1,0 +1,73 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/codebreaker/codebreaker/Countofdivisors/cd.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 19,
+                  "endLine": 37,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "getDivisors",
+                  "decoratedName": "?getDivisors@@YAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32534.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/codebreaker/codebreaker/Countofdivisors/cd.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ae88fb73b35ef749a8bc599b5a015c8c50789f5fa9f5a644b9be6b5686e9878f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/codebreaker/codebreaker/common/common.h"
+          },
+          "hashes": {
+            "sha-256": "07a70eebad542ba3164f9cee14110a347e6778f6b99ee5ef4da241ab0505657d"
+          }
+        }
+      ]
+    }
+  ]
+}

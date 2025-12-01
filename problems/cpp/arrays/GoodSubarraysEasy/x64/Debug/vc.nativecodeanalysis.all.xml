@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\codebreaker\codebreaker\GoodSubarraysEasy\</FILEPATH>
+      <FILENAME>gsa.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>solve</FUNCTION>
+    <DECORATED>?solve@@YAHAEAV?$vector@HV?$allocator@H@std@@@std@@H@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\codebreaker\codebreaker\GoodSubarraysEasy\</FILEPATH>
+      <FILENAME>gsa.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>solve</FUNCTION>
+    <DECORATED>?solve@@YAHAEAV?$vector@HV?$allocator@H@std@@@std@@H@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\codebreaker\codebreaker\GoodSubarraysEasy\</FILEPATH>
+      <FILENAME>gsa.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>solve</FUNCTION>
+    <DECORATED>?solve@@YAHAEAV?$vector@HV?$allocator@H@std@@@std@@H@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

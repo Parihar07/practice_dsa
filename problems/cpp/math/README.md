@@ -1,21 +1,20 @@
-# Math
+# Number Theory
 
-Mathematical algorithms and number-based problems.
+Advanced number theory and mathematical problem solving.
 
 ## Key Concepts Covered
-- Prime numbers and sieves
-- GCD and LCM
-- Modular arithmetic
-- Fast exponentiation
-- Combinatorics
-- Number theory basics
-- Mathematical patterns
-- Integer properties
+- Prime factorization
+- Modular inverse
+- Chinese remainder theorem
+- Euler's totient function
+- Fermat's little theorem
+- GCD and LCM advanced applications
+- Divisibility and factors
+- Modular exponentiation
 
 ## Tips
-- Learn Euclidean algorithm for GCD
-- Use modulo to prevent overflow
-- Fast exponentiation: O(log n) instead of O(n)
-- Sieve of Eratosthenes for finding primes up to N
-- Look for mathematical patterns before coding
-- Understand properties: even/odd, divisibility rules
+- Master modular arithmetic—it appears everywhere
+- (a * b) % m = ((a % m) * (b % m)) % m
+- For modular inverse: use Fermat's theorem when m is prime
+- Prime factorization in O(√n)
+- Sieve modifications for advanced problems

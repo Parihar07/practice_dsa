@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+      <FILENAME>rc.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'A'.</DESCRIPTION>
+    <FUNCTION>retRepeatedChar</FUNCTION>
+    <DECORATED>?retRepeatedChar@@YAHQEBDH@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+        <FILENAME>rc.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'A' is an array of 26 elements (104 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+        <FILENAME>rc.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'t' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+        <FILENAME>rc.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+        <FILENAME>rc.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;sze')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+        <FILENAME>rc.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'a[i]&gt;=65&amp;&amp;a[i]&lt;=90' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+        <FILENAME>rc.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+        <FILENAME>rc.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\codebreaker\codebreaker\repeatedChar\</FILEPATH>
+        <FILENAME>rc.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'A[-33]', (readable range is 0 to 25)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

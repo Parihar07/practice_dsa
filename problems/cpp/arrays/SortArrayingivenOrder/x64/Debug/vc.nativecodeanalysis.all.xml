@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\codebreaker\codebreaker\SortArrayingivenOrder\</FILEPATH>
+      <FILENAME>SAIgo.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>solve</FUNCTION>
+    <DECORATED>?solve@@YA?AV?$vector@HV?$allocator@H@std@@@std@@AEAV12@0@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\codebreaker\codebreaker\SortArrayingivenOrder\</FILEPATH>
+      <FILENAME>SAIgo.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>solve</FUNCTION>
+    <DECORATED>?solve@@YA?AV?$vector@HV?$allocator@H@std@@@std@@AEAV12@0@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

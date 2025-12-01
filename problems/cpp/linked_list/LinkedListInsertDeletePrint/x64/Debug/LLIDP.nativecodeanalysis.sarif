@@ -1,0 +1,405 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 't'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 10,
+                  "endLine": 27,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "deleteNode",
+                  "decoratedName": "?deleteNode@@YAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'head' is NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 't' receives the value of 'head' (which may be NULL)"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 't->next!=0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "'t' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'p'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 4,
+                  "endLine": 70,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "insertNode",
+                  "decoratedName": "?insertNode@@YAXHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'p' is NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'head==0&&pos==1' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 't!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'cnt<=pos')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'p' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32534.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/codebreaker/codebreaker/LinkedListInsertDeletePrint/LLIDP.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3d84a7dbd69115d08d719bf460daa7789dcc283d3802904a4a8914620d14853c"
+          }
+        }
+      ]
+    }
+  ]
+}
