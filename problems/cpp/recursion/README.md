@@ -35,6 +35,7 @@ Problems exploring recursive thinking, backtracking, and divide-and-conquer appr
 - [keypad_prob](keypad_prob/) - Print all possible letter combinations for a phone keypad digit string (recursive/backtracking)
 - [nqueen](nqueen/) - N-Queens problem with backtracking (O(N) and O(1) checks)
 - [sudoku](sudoku/) - Sudoku solver using recursive backtracking (supports 4x4 and 9x9 grids)
+- [spacePermutation](spacePermutation/) - Print all strings formed by inserting spaces between characters (recursive/backtracking)
 
 ## Tips
 - Always define a clear base case
