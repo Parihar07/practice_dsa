@@ -64,7 +64,7 @@ void print_vec(const vector<int>& v, const string& label)
 }
 
 int main()
-{
+{                                                                                                                                                         
     cout << "==== Basic Sorting Tests ====" << '\n';
 
     // Test case 1: mixed values
