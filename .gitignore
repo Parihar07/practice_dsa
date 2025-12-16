@@ -34,7 +34,8 @@
 # Debug symbols and build artifacts
 *.dSYM/
 .dSYM
-hello/makefile
+makefile
+Makefile
 hello/.DS_Store
 .vscode/tasks.json
 .vscode/launch.json
