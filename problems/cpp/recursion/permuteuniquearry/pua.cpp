@@ -108,7 +108,7 @@ int main()
     {
         for (auto j : i)
         {
-            cout << j << " ";
+            cout << j << " "; 
         }
         cout << "\n";
     }
