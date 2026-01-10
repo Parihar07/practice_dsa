@@ -56,7 +56,7 @@ int main()
 
     // Test Case 1
     cout << "TC 1: Basic case\n";
-    vector<int> A1{3, 4, 1, 9, 56, 7, 9, 12};
+    vector<int> A1{3, 4, 1,   9, 56, 7, 9, 12};
     cout << "Array: [3, 4, 1, 9, 56, 7, 9, 12], m=5\n";
     cout << "Min Diff (Optimal): " << minDiffOpt(A1, 5) << endl;
 
