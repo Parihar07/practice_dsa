@@ -1,0 +1,99 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug symbols and build artifacts
+*.dSYM/
+.dSYM
+makefile
+Makefile
+hello/.DS_Store
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/settings.json
+.DS_Store
+*.xcuserdatad*
+*.xcuserdatad*
+*.pbxproj
+dsa/dsa.xcodeproj/project.pbxproj
+*.xcworkspace*
+*.xcodeproj*
+*.xcuserstate
+DSA.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+dsa/dsa.xcodeproj/xcuserdata/codebreaker.xcuserdatad/xcschemes/xcschememanagement.plist
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+dsa/dsa.xcodeproj/project.pbxproj
+dsa/dsa.xcodeproj/project.pbxproj
+/win_dev/.vs/win_dev
+/win_dev/win_dev/x64/Debug
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+dsa/dsa.xcodeproj/project.pbxproj
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+dsa/dsa.xcodeproj/xcuserdata/codebreaker.xcuserdatad/xcschemes/xcschememanagement.plist
+dsa/dsa.xcodeproj/xcuserdata/codebreaker.xcuserdatad/xcschemes/xcschememanagement.plist
+*.pbxproj
+*.xcuserstate
+*.plist
+backtracking_subsets/btss.dSYM/Contents/Resources/DWARF/btss
+backtracking_subsets/btss.dSYM/Contents/Resources/Relocations/aarch64/btss.yml
+dsa/dsa.xcodeproj/project.xcworkspace/xcuserdata/codebreaker.xcuserdatad/UserInterfaceState.xcuserstate
+backtracking_NQueens/bnq.dSYM/Contents/Resources/DWARF/bnq
+backtracking_NQueens/bnq.dSYM/Contents/Resources/Relocations/aarch64/bnq.yml
+dsa/dsa.xcodeproj/project.xcworkspace/*
+*.tlog
+*.recipe
+*.ilk
+*.log
+*.idb
+*.pdb
+
+# Visual Studio specific files and folders
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ipch
+x64/
+Debug/
+Release/
+*.nativecodeanalysis.xml
+*.nativecodeanalysis.sarif
+CodeAnalysisResultManifest.txt
+FileListAbsolute.txt
+*.enc
