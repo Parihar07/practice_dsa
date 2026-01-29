@@ -97,3 +97,5 @@ Release/
 CodeAnalysisResultManifest.txt
 FileListAbsolute.txt
 *.enc
+*.vsidx
+*.opendb
