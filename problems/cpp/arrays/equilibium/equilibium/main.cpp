@@ -164,3 +164,5 @@ int main(int argc, const char * argv[]) {
     cout<<"Equilibium Index is "<<equillibiumIndexOptimal(arr)<<endl;
     return 0;
 }
+
+
