@@ -1,0 +1,116 @@
+# Test cases for lo.cpp (Binary Search - Last Occurrence)
+# Format: Each test case provides input array, key and expected output
+
+[[testcases]]
+name = "Element found with multiple occurrences"
+array = [2, 3, 4, 4, 4, 4, 6, 8]
+key = 4
+expected_output = 5
+
+[[testcases]]
+name = "Element found at beginning (single occurrence)"
+array = [2, 3, 4, 5, 6, 7, 8]
+key = 2
+expected_output = 0
+
+[[testcases]]
+name = "Element found at end (single occurrence)"
+array = [2, 3, 4, 5, 6, 7, 8]
+key = 8
+expected_output = 6
+
+[[testcases]]
+name = "Element not found (smaller than all)"
+array = [2, 3, 4, 5, 6, 7, 8]
+key = 1
+expected_output = -1
+
+[[testcases]]
+name = "Element not found (larger than all)"
+array = [2, 3, 4, 5, 6, 7, 8]
+key = 9
+expected_output = -1
+
+[[testcases]]
+name = "Element not found (in range but absent)"
+array = [2, 4, 6, 8, 10, 12]
+key = 5
+expected_output = -1
+
+[[testcases]]
+name = "Single element array (found)"
+array = [7]
+key = 7
+expected_output = 0
+
+[[testcases]]
+name = "Single element array (not found)"
+array = [7]
+key = 3
+expected_output = -1
+
+[[testcases]]
+name = "Empty array"
+array = []
+key = 5
+expected_output = -1
+
+[[testcases]]
+name = "All elements same (found)"
+array = [5, 5, 5, 5, 5]
+key = 5
+expected_output = 4
+
+[[testcases]]
+name = "All elements same (not found)"
+array = [5, 5, 5, 5, 5]
+key = 3
+expected_output = -1
+
+[[testcases]]
+name = "Two elements (first element)"
+array = [3, 5]
+key = 3
+expected_output = 0
+
+[[testcases]]
+name = "Two elements (second element)"
+array = [3, 5]
+key = 5
+expected_output = 1
+
+[[testcases]]
+name = "Duplicate at beginning"
+array = [2, 2, 2, 3, 4, 5]
+key = 2
+expected_output = 2
+
+[[testcases]]
+name = "Duplicate at end"
+array = [1, 2, 3, 5, 5, 5]
+key = 5
+expected_output = 5
+
+[[testcases]]
+name = "Negative numbers (found)"
+array = [-10, -5, -3, -3, -3, 0, 2, 4]
+key = -3
+expected_output = 4
+
+[[testcases]]
+name = "Negative numbers (not found)"
+array = [-10, -5, -3, 0, 2, 4]
+key = -1
+expected_output = -1
+
+[[testcases]]
+name = "Large array with duplicates"
+array = [1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5, 6, 7, 8, 8, 9, 10, 10, 10]
+key = 5
+expected_output = 15
+
+[[testcases]]
+name = "Element in middle (single occurrence)"
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+key = 5
+expected_output = 4
