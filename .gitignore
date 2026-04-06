@@ -99,3 +99,4 @@ FileListAbsolute.txt
 *.enc
 *.vsidx
 *.opendb
+*.toml
